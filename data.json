@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T18:17:36Z",
+  "generated_at": "2026-06-30T23:04:15.360Z",
   "period_label": "Month to Date",
   "source": "Provider Leaderboard LiveExcel v2.xlsx",
   "brands": [
@@ -33,7 +33,7 @@
       "brand": "Carolina Age Management Institute",
       "region": "East Coast",
       "revenue": 260251.9,
-      "revenue_lm": 280536.0,
+      "revenue_lm": 280536,
       "revenue_sply": 473503.05,
       "visits": 435,
       "visits_sply": 918,
@@ -125,7 +125,7 @@
       "region": "West Coast",
       "revenue": 822566.83,
       "revenue_lm": 861038.5,
-      "revenue_sply": 783138.0,
+      "revenue_sply": 783138,
       "visits": 802,
       "visits_sply": 637,
       "rpv": 1025.64,
@@ -227,7 +227,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": true,
-        "revenue": 205016.2,
+        "revenue": 205016.21,
         "visits": 233,
         "rpv": 879.9
       },
@@ -257,7 +257,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 161592.0,
+        "revenue": 161592,
         "visits": 205,
         "rpv": 788.25
       },
@@ -267,9 +267,9 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 157619.0,
+        "revenue": 157619,
         "visits": 184,
-        "rpv": 856.62
+        "rpv": 856.63
       },
       {
         "employee": "Lynn Nieman",
@@ -287,7 +287,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": true,
-        "revenue": 142052.0,
+        "revenue": 142052,
         "visits": 136,
         "rpv": 1044.5
       },
@@ -637,7 +637,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 64547.0,
+        "revenue": 64547,
         "visits": 88,
         "rpv": 733.49
       },
@@ -767,7 +767,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 50961.0,
+        "revenue": 50961,
         "visits": 66,
         "rpv": 772.14
       },
@@ -957,7 +957,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 26946.0,
+        "revenue": 26946,
         "visits": 64,
         "rpv": 421.03
       },
@@ -967,7 +967,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 24520.0,
+        "revenue": 24520,
         "visits": 0,
         "rpv": null
       },
@@ -997,7 +997,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 19011.0,
+        "revenue": 19011,
         "visits": 0,
         "rpv": null
       },
@@ -1017,7 +1017,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 16878.0,
+        "revenue": 16878,
         "visits": 0,
         "rpv": null
       },
@@ -1077,7 +1077,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 12554.0,
+        "revenue": 12554,
         "visits": 0,
         "rpv": null
       },
@@ -1137,7 +1137,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 7945.0,
+        "revenue": 7945,
         "visits": 0,
         "rpv": null
       },
@@ -1187,7 +1187,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 2750.0,
+        "revenue": 2750,
         "visits": 23,
         "rpv": 119.57
       },
@@ -1197,7 +1197,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 2440.0,
+        "revenue": 2440,
         "visits": 0,
         "rpv": null
       },
@@ -1217,7 +1217,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 2045.0,
+        "revenue": 2045,
         "visits": 0,
         "rpv": null
       },
@@ -1247,7 +1247,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 895.0,
+        "revenue": 895,
         "visits": 0,
         "rpv": null
       },
@@ -1257,7 +1257,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 891.0,
+        "revenue": 891,
         "visits": 0,
         "rpv": null
       },
@@ -1267,9 +1267,9 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 850.0,
+        "revenue": 850,
         "visits": 1,
-        "rpv": 850.0
+        "rpv": 850
       },
       {
         "employee": "Sophie Civitarese",
@@ -1277,7 +1277,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 650.0,
+        "revenue": 650,
         "visits": 0,
         "rpv": null
       },
@@ -1287,7 +1287,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 350.0,
+        "revenue": 350,
         "visits": 0,
         "rpv": null
       },
@@ -1297,7 +1297,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 297.0,
+        "revenue": 297,
         "visits": 0,
         "rpv": null
       },
@@ -1307,7 +1307,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 275.0,
+        "revenue": 275,
         "visits": 0,
         "rpv": null
       },
@@ -1317,7 +1317,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 99.0,
+        "revenue": 99,
         "visits": 0,
         "rpv": null
       },
@@ -1327,7 +1327,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 99.0,
+        "revenue": 99,
         "visits": 0,
         "rpv": null
       },
@@ -1337,7 +1337,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 99.0,
+        "revenue": 99,
         "visits": 0,
         "rpv": null
       },
@@ -1347,7 +1347,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 60.0,
+        "revenue": 60,
         "visits": 0,
         "rpv": null
       },
@@ -1357,7 +1357,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 30.0,
+        "revenue": 30,
         "visits": 0,
         "rpv": null
       },
@@ -1367,9 +1367,9 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 2,
-        "rpv": 0.0
+        "rpv": 0
       },
       {
         "employee": "Ashley Chase",
@@ -1377,7 +1377,7 @@
         "region": "",
         "department": "Injectors",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -1387,7 +1387,7 @@
         "region": "",
         "department": "Injectors",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -1397,7 +1397,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -1407,7 +1407,7 @@
         "region": "West Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -1417,7 +1417,7 @@
         "region": "East Coast",
         "department": "Injectors",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       }
@@ -1781,7 +1781,7 @@
         "partner": false,
         "revenue": 8299.04,
         "visits": 43,
-        "rpv": 193.0
+        "rpv": 193
       },
       {
         "employee": "Avarose Scavio",
@@ -1809,9 +1809,9 @@
         "region": "West Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 4466.0,
+        "revenue": 4466,
         "visits": 11,
-        "rpv": 406.0
+        "rpv": 406
       },
       {
         "employee": "Kim Stoneburner",
@@ -1859,7 +1859,7 @@
         "region": "West Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 2992.0,
+        "revenue": 2992,
         "visits": 10,
         "rpv": 299.2
       },
@@ -1909,7 +1909,7 @@
         "region": "West Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 796.0,
+        "revenue": 796,
         "visits": 5,
         "rpv": 159.2
       },
@@ -1919,7 +1919,7 @@
         "region": "West Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 693.0,
+        "revenue": 693,
         "visits": 0,
         "rpv": null
       },
@@ -1929,9 +1929,9 @@
         "region": "West Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 400.0,
+        "revenue": 400,
         "visits": 5,
-        "rpv": 80.0
+        "rpv": 80
       },
       {
         "employee": "Angela Warner",
@@ -1949,7 +1949,7 @@
         "region": "West Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -1959,7 +1959,7 @@
         "region": "West Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -1969,7 +1969,7 @@
         "region": "East Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -1979,7 +1979,7 @@
         "region": "East Coast",
         "department": "Estheticians",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       }
@@ -2071,7 +2071,7 @@
         "region": "East Coast",
         "department": "Surgery",
         "partner": false,
-        "revenue": 2673.0,
+        "revenue": 2673,
         "visits": 14,
         "rpv": 190.93
       },
@@ -2081,7 +2081,7 @@
         "region": "West Coast",
         "department": "Surgery",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -2091,7 +2091,7 @@
         "region": "West Coast",
         "department": "Surgery",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -2101,7 +2101,7 @@
         "region": "East Coast",
         "department": "Surgery",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -2111,7 +2111,7 @@
         "region": "East Coast",
         "department": "Surgery",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -2121,7 +2121,7 @@
         "region": "East Coast",
         "department": "Surgery",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -2131,7 +2131,7 @@
         "region": "East Coast",
         "department": "Surgery",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       },
@@ -2141,7 +2141,7 @@
         "region": "East Coast",
         "department": "Surgery",
         "partner": false,
-        "revenue": 0.0,
+        "revenue": 0,
         "visits": 0,
         "rpv": null
       }
