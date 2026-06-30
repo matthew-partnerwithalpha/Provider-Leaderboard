@@ -3,20 +3,2148 @@
   "period_label": "Month to Date",
   "source": "Provider Leaderboard LiveExcel v2.xlsx",
   "brands": [
-    { "brand": "Anne Therese Aesthetic Medicine", "region": "West Coast", "revenue": 611578.69, "revenue_lm": 633341.96, "revenue_sply": 549831.54, "visits": 1288, "visits_sply": 1268, "rpv": 474.83, "rpv_sply": 433.62, "rebooked_rate": 0.6773, "completed_rate": 0.8060 },
-    { "brand": "Blossom", "region": "East Coast", "revenue": 232696.64, "revenue_lm": 192423.86, "revenue_sply": 168489.32, "visits": 348, "visits_sply": 300, "rpv": 668.67, "rpv_sply": 561.63, "rebooked_rate": 0.7254, "completed_rate": 0.6397 },
-    { "brand": "Carolina Age Management Institute", "region": "East Coast", "revenue": 260251.90, "revenue_lm": 280536.00, "revenue_sply": 473503.05, "visits": 435, "visits_sply": 918, "rpv": 598.28, "rpv_sply": 515.80, "rebooked_rate": 0.8501, "completed_rate": 0.7050 },
-    { "brand": "Dontage", "region": "East Coast", "revenue": 702865.64, "revenue_lm": 726149.42, "revenue_sply": 577080.95, "visits": 951, "visits_sply": 874, "rpv": 739.08, "rpv_sply": 660.28, "rebooked_rate": 0.6789, "completed_rate": 0.7039 },
-    { "brand": "Esthetics Center", "region": "West Coast", "revenue": 1256126.16, "revenue_lm": 1400876.14, "revenue_sply": 1196669.89, "visits": 2170, "visits_sply": 1862, "rpv": 578.86, "rpv_sply": 642.68, "rebooked_rate": 0.6325, "completed_rate": 0.6223 },
-    { "brand": "Flawless", "region": "West Coast", "revenue": 193589.38, "revenue_lm": 202826.75, "revenue_sply": 234027.96, "visits": 491, "visits_sply": 601, "rpv": 394.28, "rpv_sply": 389.40, "rebooked_rate": 0.6858, "completed_rate": 0.7406 },
-    { "brand": "Holden Timeless Beauty", "region": "West Coast", "revenue": 557611.04, "revenue_lm": 570183.76, "revenue_sply": 552632.69, "visits": 881, "visits_sply": 1032, "rpv": 632.93, "rpv_sply": 535.50, "rebooked_rate": 0.7159, "completed_rate": 0.6076 },
-    { "brand": "Inbloom Health and Medispa", "region": "East Coast", "revenue": 150806.78, "revenue_lm": 196636.79, "revenue_sply": 159302.90, "visits": 288, "visits_sply": 361, "rpv": 523.63, "rpv_sply": 441.28, "rebooked_rate": 0.8681, "completed_rate": 0.7404 },
-    { "brand": "Mint & Needle", "region": "East Coast", "revenue": 263737.60, "revenue_lm": 317802.48, "revenue_sply": 234570.33, "visits": 494, "visits_sply": 447, "rpv": 533.88, "rpv_sply": 524.77, "rebooked_rate": 0.5769, "completed_rate": 0.7683 },
-    { "brand": "Preva Aesthetics", "region": "West Coast", "revenue": 822566.83, "revenue_lm": 861038.50, "revenue_sply": 783138.00, "visits": 802, "visits_sply": 637, "rpv": 1025.64, "rpv_sply": 1229.42, "rebooked_rate": 0.7257, "completed_rate": 0.7258 },
-    { "brand": "Prive", "region": "East Coast", "revenue": 448282.12, "revenue_lm": 439051.18, "revenue_sply": 440032.68, "visits": 771, "visits_sply": 889, "rpv": 581.43, "rpv_sply": 494.97, "rebooked_rate": 0.8352, "completed_rate": 0.5620 },
-    { "brand": "Refined Aesthetics", "region": "East Coast", "revenue": 409119.97, "revenue_lm": 538978.86, "revenue_sply": 390664.90, "visits": 551, "visits_sply": 545, "rpv": 742.50, "rpv_sply": 716.82, "rebooked_rate": 0.5209, "completed_rate": 0.7476 },
-    { "brand": "RN Esthetics", "region": "East Coast", "revenue": 1181350.39, "revenue_lm": 1185694.68, "revenue_sply": 948545.53, "visits": 1763, "visits_sply": 1620, "rpv": 670.08, "rpv_sply": 585.52, "rebooked_rate": 0.7159, "completed_rate": 0.7829 },
-    { "brand": "The Laser Center of Marin", "region": "West Coast", "revenue": 332469.86, "revenue_lm": 331406.12, "revenue_sply": 298637.57, "visits": 493, "visits_sply": 493, "rpv": 674.38, "rpv_sply": 605.76, "rebooked_rate": 0.7708, "completed_rate": 0.7913 },
-    { "brand": "Williams Center", "region": "East Coast", "revenue": 957458.11, "revenue_lm": 1267025.20, "revenue_sply": 956504.82, "visits": 1526, "visits_sply": 1471, "rpv": 627.43, "rpv_sply": 650.24, "rebooked_rate": 0.5771, "completed_rate": 0.6782 }
-  ]
+    {
+      "brand": "Anne Therese Aesthetic Medicine",
+      "region": "West Coast",
+      "revenue": 611578.69,
+      "revenue_lm": 633341.96,
+      "revenue_sply": 549831.54,
+      "visits": 1288,
+      "visits_sply": 1268,
+      "rpv": 474.83,
+      "rpv_sply": 433.62,
+      "rebooked_rate": 0.6773,
+      "completed_rate": 0.806
+    },
+    {
+      "brand": "Blossom",
+      "region": "East Coast",
+      "revenue": 232696.64,
+      "revenue_lm": 192423.86,
+      "revenue_sply": 168489.32,
+      "visits": 348,
+      "visits_sply": 300,
+      "rpv": 668.67,
+      "rpv_sply": 561.63,
+      "rebooked_rate": 0.7254,
+      "completed_rate": 0.6397
+    },
+    {
+      "brand": "Carolina Age Management Institute",
+      "region": "East Coast",
+      "revenue": 260251.9,
+      "revenue_lm": 280536.0,
+      "revenue_sply": 473503.05,
+      "visits": 435,
+      "visits_sply": 918,
+      "rpv": 598.28,
+      "rpv_sply": 515.8,
+      "rebooked_rate": 0.8501,
+      "completed_rate": 0.705
+    },
+    {
+      "brand": "Dontage",
+      "region": "East Coast",
+      "revenue": 702865.64,
+      "revenue_lm": 726149.42,
+      "revenue_sply": 577080.95,
+      "visits": 951,
+      "visits_sply": 874,
+      "rpv": 739.08,
+      "rpv_sply": 660.28,
+      "rebooked_rate": 0.6789,
+      "completed_rate": 0.7039
+    },
+    {
+      "brand": "Esthetics Center",
+      "region": "West Coast",
+      "revenue": 1256126.16,
+      "revenue_lm": 1400876.14,
+      "revenue_sply": 1196669.89,
+      "visits": 2170,
+      "visits_sply": 1862,
+      "rpv": 578.86,
+      "rpv_sply": 642.68,
+      "rebooked_rate": 0.6325,
+      "completed_rate": 0.6223
+    },
+    {
+      "brand": "Flawless",
+      "region": "West Coast",
+      "revenue": 193589.38,
+      "revenue_lm": 202826.75,
+      "revenue_sply": 234027.96,
+      "visits": 491,
+      "visits_sply": 601,
+      "rpv": 394.28,
+      "rpv_sply": 389.4,
+      "rebooked_rate": 0.6858,
+      "completed_rate": 0.7406
+    },
+    {
+      "brand": "Holden Timeless Beauty",
+      "region": "West Coast",
+      "revenue": 557611.04,
+      "revenue_lm": 570183.76,
+      "revenue_sply": 552632.69,
+      "visits": 881,
+      "visits_sply": 1032,
+      "rpv": 632.93,
+      "rpv_sply": 535.5,
+      "rebooked_rate": 0.7159,
+      "completed_rate": 0.6076
+    },
+    {
+      "brand": "Inbloom Health and Medispa",
+      "region": "East Coast",
+      "revenue": 150806.78,
+      "revenue_lm": 196636.79,
+      "revenue_sply": 159302.9,
+      "visits": 288,
+      "visits_sply": 361,
+      "rpv": 523.63,
+      "rpv_sply": 441.28,
+      "rebooked_rate": 0.8681,
+      "completed_rate": 0.7404
+    },
+    {
+      "brand": "Mint & Needle",
+      "region": "East Coast",
+      "revenue": 263737.6,
+      "revenue_lm": 317802.48,
+      "revenue_sply": 234570.33,
+      "visits": 494,
+      "visits_sply": 447,
+      "rpv": 533.88,
+      "rpv_sply": 524.77,
+      "rebooked_rate": 0.5769,
+      "completed_rate": 0.7683
+    },
+    {
+      "brand": "Preva Aesthetics",
+      "region": "West Coast",
+      "revenue": 822566.83,
+      "revenue_lm": 861038.5,
+      "revenue_sply": 783138.0,
+      "visits": 802,
+      "visits_sply": 637,
+      "rpv": 1025.64,
+      "rpv_sply": 1229.42,
+      "rebooked_rate": 0.7257,
+      "completed_rate": 0.7258
+    },
+    {
+      "brand": "Prive",
+      "region": "East Coast",
+      "revenue": 448282.12,
+      "revenue_lm": 439051.18,
+      "revenue_sply": 440032.68,
+      "visits": 771,
+      "visits_sply": 889,
+      "rpv": 581.43,
+      "rpv_sply": 494.97,
+      "rebooked_rate": 0.8352,
+      "completed_rate": 0.562
+    },
+    {
+      "brand": "Refined Aesthetics",
+      "region": "East Coast",
+      "revenue": 409119.97,
+      "revenue_lm": 538978.86,
+      "revenue_sply": 390664.9,
+      "visits": 551,
+      "visits_sply": 545,
+      "rpv": 742.5,
+      "rpv_sply": 716.82,
+      "rebooked_rate": 0.5209,
+      "completed_rate": 0.7476
+    },
+    {
+      "brand": "RN Esthetics",
+      "region": "East Coast",
+      "revenue": 1181350.39,
+      "revenue_lm": 1185694.68,
+      "revenue_sply": 948545.53,
+      "visits": 1763,
+      "visits_sply": 1620,
+      "rpv": 670.08,
+      "rpv_sply": 585.52,
+      "rebooked_rate": 0.7159,
+      "completed_rate": 0.7829
+    },
+    {
+      "brand": "The Laser Center of Marin",
+      "region": "West Coast",
+      "revenue": 332469.86,
+      "revenue_lm": 331406.12,
+      "revenue_sply": 298637.57,
+      "visits": 493,
+      "visits_sply": 493,
+      "rpv": 674.38,
+      "rpv_sply": 605.76,
+      "rebooked_rate": 0.7708,
+      "completed_rate": 0.7913
+    },
+    {
+      "brand": "Williams Center",
+      "region": "East Coast",
+      "revenue": 957458.11,
+      "revenue_lm": 1267025.2,
+      "revenue_sply": 956504.82,
+      "visits": 1526,
+      "visits_sply": 1471,
+      "rpv": 627.43,
+      "rpv_sply": 650.24,
+      "rebooked_rate": 0.5771,
+      "completed_rate": 0.6782
+    }
+  ],
+  "provider_groups": {
+    "Injectors": [
+      {
+        "employee": "Waseem Garbia",
+        "brand": "Dontage",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 318803.19,
+        "visits": 447,
+        "rpv": 713.21
+      },
+      {
+        "employee": "Allison Rogenmoser",
+        "brand": "Preva Aesthetics",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 221889.13,
+        "visits": 188,
+        "rpv": 1180.26
+      },
+      {
+        "employee": "Sarah Safa",
+        "brand": "Refined Aesthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 205016.2,
+        "visits": 233,
+        "rpv": 879.9
+      },
+      {
+        "employee": "Torri Winch",
+        "brand": "Preva Aesthetics",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 172393.7,
+        "visits": 162,
+        "rpv": 1064.16
+      },
+      {
+        "employee": "Mary Carter",
+        "brand": "Dontage",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 169585.4,
+        "visits": 208,
+        "rpv": 815.31
+      },
+      {
+        "employee": "Elizabeth Callahan",
+        "brand": "Dontage",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 161592.0,
+        "visits": 205,
+        "rpv": 788.25
+      },
+      {
+        "employee": "Camille Angeles-Castle",
+        "brand": "Preva Aesthetics",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 157619.0,
+        "visits": 184,
+        "rpv": 856.62
+      },
+      {
+        "employee": "Lynn Nieman",
+        "brand": "Blossom",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 150971.98,
+        "visits": 163,
+        "rpv": 926.21
+      },
+      {
+        "employee": "Michelle Paty",
+        "brand": "Preva Aesthetics",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 142052.0,
+        "visits": 136,
+        "rpv": 1044.5
+      },
+      {
+        "employee": "Ali Oxton",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 141992.59,
+        "visits": 167,
+        "rpv": 850.26
+      },
+      {
+        "employee": "Katherine Martin",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 132974.84,
+        "visits": 184,
+        "rpv": 722.69
+      },
+      {
+        "employee": "Lauren Biscotti",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 128676.32,
+        "visits": 200,
+        "rpv": 643.38
+      },
+      {
+        "employee": "Jacqueline Schenck",
+        "brand": "Blossom, Refined Aesthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 126126.23,
+        "visits": 188,
+        "rpv": 670.88
+      },
+      {
+        "employee": "Michelle Doran",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 111845.73,
+        "visits": 127,
+        "rpv": 880.68
+      },
+      {
+        "employee": "Brandice Harrison",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 110195.74,
+        "visits": 103,
+        "rpv": 1069.86
+      },
+      {
+        "employee": "Jennifer Angilletta",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 109895.05,
+        "visits": 186,
+        "rpv": 590.83
+      },
+      {
+        "employee": "Kaitlyn Morrison",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 107725.62,
+        "visits": 133,
+        "rpv": 809.97
+      },
+      {
+        "employee": "Lindsay Korn",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 107102.75,
+        "visits": 122,
+        "rpv": 877.89
+      },
+      {
+        "employee": "Jamie Hoffman",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 104956.85,
+        "visits": 199,
+        "rpv": 527.42
+      },
+      {
+        "employee": "Alison Chiques",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 102400.87,
+        "visits": 207,
+        "rpv": 494.69
+      },
+      {
+        "employee": "Ashley Carrico",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 96587.54,
+        "visits": 133,
+        "rpv": 726.22
+      },
+      {
+        "employee": "Amanda Malgieri",
+        "brand": "Refined Aesthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 96482.94,
+        "visits": 156,
+        "rpv": 618.48
+      },
+      {
+        "employee": "Meghan Dasher",
+        "brand": "The Laser Center of Marin",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 95653.72,
+        "visits": 125,
+        "rpv": 765.23
+      },
+      {
+        "employee": "Lisa Leung",
+        "brand": "The Laser Center of Marin",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 90125.25,
+        "visits": 112,
+        "rpv": 804.69
+      },
+      {
+        "employee": "Emily Corzatt",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 87849.56,
+        "visits": 165,
+        "rpv": 532.42
+      },
+      {
+        "employee": "Brandi Gregge",
+        "brand": "Mint & Needle",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 86557.74,
+        "visits": 124,
+        "rpv": 698.05
+      },
+      {
+        "employee": "Chelsea Ferrera",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 83504.43,
+        "visits": 182,
+        "rpv": 458.82
+      },
+      {
+        "employee": "Dana Dendinger",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 80322.56,
+        "visits": 152,
+        "rpv": 528.44
+      },
+      {
+        "employee": "Maquela Barron",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 78223.49,
+        "visits": 207,
+        "rpv": 377.89
+      },
+      {
+        "employee": "Jason Rivera-Muscari",
+        "brand": "Flawless",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 77403.82,
+        "visits": 159,
+        "rpv": 486.82
+      },
+      {
+        "employee": "Seema Teymouri",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 77280.32,
+        "visits": 167,
+        "rpv": 462.76
+      },
+      {
+        "employee": "Katie Wilson",
+        "brand": "Carolina Age Management Institute",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 76927.68,
+        "visits": 110,
+        "rpv": 699.34
+      },
+      {
+        "employee": "Jenna Poel",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 74205.06,
+        "visits": 105,
+        "rpv": 706.71
+      },
+      {
+        "employee": "Melissa Mcglinchey",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 73230.74,
+        "visits": 109,
+        "rpv": 671.84
+      },
+      {
+        "employee": "Lyndsey Witt",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 72269.96,
+        "visits": 100,
+        "rpv": 722.7
+      },
+      {
+        "employee": "Amanda Holden",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 70098.39,
+        "visits": 116,
+        "rpv": 604.3
+      },
+      {
+        "employee": "Kelly Morgan",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 70096.02,
+        "visits": 125,
+        "rpv": 560.77
+      },
+      {
+        "employee": "Tanya Lawson",
+        "brand": "Inbloom Health and Medispa",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 69517.7,
+        "visits": 119,
+        "rpv": 584.18
+      },
+      {
+        "employee": "Jacqueline Zuniga",
+        "brand": "Flawless",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 67294.85,
+        "visits": 148,
+        "rpv": 454.69
+      },
+      {
+        "employee": "Heather Roheim",
+        "brand": "The Laser Center of Marin",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 67134.74,
+        "visits": 136,
+        "rpv": 493.64
+      },
+      {
+        "employee": "Shannon Bruce",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 66278.19,
+        "visits": 133,
+        "rpv": 498.33
+      },
+      {
+        "employee": "Ingrid Hofersfort",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 66213.5,
+        "visits": 86,
+        "rpv": 769.92
+      },
+      {
+        "employee": "Rene Hastings",
+        "brand": "Mint & Needle",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 65977.62,
+        "visits": 150,
+        "rpv": 439.85
+      },
+      {
+        "employee": "Mckenzie Barnes",
+        "brand": "Preva Aesthetics",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 64547.0,
+        "visits": 88,
+        "rpv": 733.49
+      },
+      {
+        "employee": "Madison Mikolajczyk",
+        "brand": "Carolina Age Management Institute",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 64466.07,
+        "visits": 99,
+        "rpv": 651.17
+      },
+      {
+        "employee": "Brenna Gimenez",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 63653.28,
+        "visits": 88,
+        "rpv": 723.33
+      },
+      {
+        "employee": "Allison Mcaniff",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 63534.7,
+        "visits": 115,
+        "rpv": 552.48
+      },
+      {
+        "employee": "Natalie Phipps",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 63167.53,
+        "visits": 86,
+        "rpv": 734.51
+      },
+      {
+        "employee": "Catherine Borrego",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 62279.99,
+        "visits": 118,
+        "rpv": 527.8
+      },
+      {
+        "employee": "Riki Desjarlais",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 61856.01,
+        "visits": 125,
+        "rpv": 494.85
+      },
+      {
+        "employee": "Anahit Muradyan",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 58570.75,
+        "visits": 161,
+        "rpv": 363.79
+      },
+      {
+        "employee": "Alixandra Breedwell",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 57973.83,
+        "visits": 90,
+        "rpv": 644.15
+      },
+      {
+        "employee": "Megan Vincze",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 54797.73,
+        "visits": 26,
+        "rpv": 2107.61
+      },
+      {
+        "employee": "Lauren Sanders",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 54292.5,
+        "visits": 91,
+        "rpv": 596.62
+      },
+      {
+        "employee": "Vanessa Gonzalez",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 51537.04,
+        "visits": 131,
+        "rpv": 393.41
+      },
+      {
+        "employee": "Maria Campagnone",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 51170.65,
+        "visits": 72,
+        "rpv": 710.7
+      },
+      {
+        "employee": "Lauren Tieri",
+        "brand": "Preva Aesthetics",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 50961.0,
+        "visits": 66,
+        "rpv": 772.14
+      },
+      {
+        "employee": "Leigha Mcglone",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 50465.55,
+        "visits": 126,
+        "rpv": 400.52
+      },
+      {
+        "employee": "Kristina Slemker",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 48870.35,
+        "visits": 68,
+        "rpv": 718.68
+      },
+      {
+        "employee": "Marsha Montague",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 46390.24,
+        "visits": 74,
+        "rpv": 626.9
+      },
+      {
+        "employee": "Alyssa Sliva",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 46237.93,
+        "visits": 82,
+        "rpv": 563.88
+      },
+      {
+        "employee": "Kimberly Hanf",
+        "brand": "The Laser Center of Marin",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 45760.38,
+        "visits": 82,
+        "rpv": 558.05
+      },
+      {
+        "employee": "Erin Froio",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 45577.62,
+        "visits": 96,
+        "rpv": 474.77
+      },
+      {
+        "employee": "Ashley Lecroy",
+        "brand": "Carolina Age Management Institute",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 45532.32,
+        "visits": 60,
+        "rpv": 758.87
+      },
+      {
+        "employee": "Jacqueline Peabody",
+        "brand": "Inbloom Health and Medispa",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 40040.57,
+        "visits": 132,
+        "rpv": 303.34
+      },
+      {
+        "employee": "Brittany Bradshaw",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 38587.24,
+        "visits": 98,
+        "rpv": 393.75
+      },
+      {
+        "employee": "Amanda Dubil",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 37476.84,
+        "visits": 95,
+        "rpv": 394.49
+      },
+      {
+        "employee": "Whitney Fritzie",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 37121.5,
+        "visits": 72,
+        "rpv": 515.58
+      },
+      {
+        "employee": "Lindsay Luciano",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 36291.66,
+        "visits": 77,
+        "rpv": 471.32
+      },
+      {
+        "employee": "Danika Wheeler",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 35634.33,
+        "visits": 63,
+        "rpv": 565.62
+      },
+      {
+        "employee": "Rachel Fox",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 34626.65,
+        "visits": 86,
+        "rpv": 402.64
+      },
+      {
+        "employee": "Makayla Newton",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 33583.92,
+        "visits": 74,
+        "rpv": 453.84
+      },
+      {
+        "employee": "Hana Cayton",
+        "brand": "Carolina Age Management Institute",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 31685.78,
+        "visits": 101,
+        "rpv": 313.72
+      },
+      {
+        "employee": "Julie Chang",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 30340.08,
+        "visits": 59,
+        "rpv": 514.24
+      },
+      {
+        "employee": "Rebecca Cross",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 27495.19,
+        "visits": 54,
+        "rpv": 509.17
+      },
+      {
+        "employee": "Emily Resh",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 26946.0,
+        "visits": 64,
+        "rpv": 421.03
+      },
+      {
+        "employee": "Gillian Pfaff",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 24520.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Brittany Gabrielli",
+        "brand": "Mint & Needle",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 24406.71,
+        "visits": 60,
+        "rpv": 406.78
+      },
+      {
+        "employee": "Katie Page",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 21217.18,
+        "visits": 28,
+        "rpv": 757.76
+      },
+      {
+        "employee": "Marielle Petrilli",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 19011.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Briana Gano",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 17616.74,
+        "visits": 54,
+        "rpv": 326.24
+      },
+      {
+        "employee": "Felecia Barela",
+        "brand": "Bair",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 16878.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Amelia Noto",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 16131.17,
+        "visits": 33,
+        "rpv": 488.82
+      },
+      {
+        "employee": "Maria Mantelli",
+        "brand": "Bair",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 14850.25,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Susana Gonzalez",
+        "brand": "The Laser Center of Marin",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 14369.83,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Ashley Warren",
+        "brand": "Blossom",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 14252.41,
+        "visits": 30,
+        "rpv": 475.08
+      },
+      {
+        "employee": "Isabella Teodoro",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 13907.74,
+        "visits": 23,
+        "rpv": 604.68
+      },
+      {
+        "employee": "Danielle O'Loughlin",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 12554.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Lisa Leblanc",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 12444.5,
+        "visits": 29,
+        "rpv": 429.12
+      },
+      {
+        "employee": "Meredith Switzer",
+        "brand": "Bair",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 11436.5,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Courtney Colantonio",
+        "brand": "Mint & Needle",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 11063.25,
+        "visits": 31,
+        "rpv": 356.88
+      },
+      {
+        "employee": "Desiree Surguy",
+        "brand": "Mint & Needle",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 10936.9,
+        "visits": 56,
+        "rpv": 195.3
+      },
+      {
+        "employee": "Anne Stubbs",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": true,
+        "revenue": 10407.12,
+        "visits": 8,
+        "rpv": 1300.89
+      },
+      {
+        "employee": "Audrey Snell",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 7945.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Isabel Garcia-Gallegos",
+        "brand": "Flawless",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 7595.78,
+        "visits": 27,
+        "rpv": 281.33
+      },
+      {
+        "employee": "Ashley Lonergan",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 7240.67,
+        "visits": 60,
+        "rpv": 120.68
+      },
+      {
+        "employee": "Ashley Fennell",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 3476.7,
+        "visits": 9,
+        "rpv": 386.3
+      },
+      {
+        "employee": "Ashely Denmark",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 3186.75,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Bella Osayande",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 2750.0,
+        "visits": 23,
+        "rpv": 119.57
+      },
+      {
+        "employee": "Carolyn Murray",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 2440.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Marie Egge",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 2047.12,
+        "visits": 3,
+        "rpv": 682.37
+      },
+      {
+        "employee": "Jill Fitzsimmons",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 2045.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Charlotte Mcwilliams",
+        "brand": "Blossom",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 1948.73,
+        "visits": 12,
+        "rpv": 162.39
+      },
+      {
+        "employee": "Breanna Ortiz",
+        "brand": "Flawless",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 1767.15,
+        "visits": 3,
+        "rpv": 589.05
+      },
+      {
+        "employee": "Gabrielle Gigliotti",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 895.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Monica Barnes",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 891.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Kayla Paris",
+        "brand": "Blossom",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 850.0,
+        "visits": 1,
+        "rpv": 850.0
+      },
+      {
+        "employee": "Sophie Civitarese",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 650.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Laura Whitmarsh",
+        "brand": "Mint & Needle",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 350.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Arianna Kostrivas",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 297.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Maggie Williams",
+        "brand": "LexRx",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 275.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Cynthia Vokey",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 99.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Kristin Beseke",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 99.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Meredith Vandyke",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 99.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Savannah Allen",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 60.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Jenny Ottoson",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 30.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Shauna Robles",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 2,
+        "rpv": 0.0
+      },
+      {
+        "employee": "Ashley Chase",
+        "brand": "LexRX",
+        "region": "",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Margaret Williams",
+        "brand": "LexRX",
+        "region": "",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Scott Harrison",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Susana Gonzales",
+        "brand": "The Laser Center of Marin",
+        "region": "West Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Sabrina Hand",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Injectors",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      }
+    ],
+    "Esty / Body / Wellness": [
+      {
+        "employee": "Allison F Konen",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Body",
+        "partner": false,
+        "revenue": 48409.65,
+        "visits": 96,
+        "rpv": 504.27
+      },
+      {
+        "employee": "Emilia Montalvo",
+        "brand": "Dontage",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 45317.5,
+        "visits": 103,
+        "rpv": 439.98
+      },
+      {
+        "employee": "Katie Reed",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Body",
+        "partner": false,
+        "revenue": 44407.3,
+        "visits": 56,
+        "rpv": 792.99
+      },
+      {
+        "employee": "Jolene Babinski",
+        "brand": "Inbloom Health and Medispa",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 40601.26,
+        "visits": 85,
+        "rpv": 477.66
+      },
+      {
+        "employee": "Teresa Eastwood",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 39281.99,
+        "visits": 113,
+        "rpv": 347.63
+      },
+      {
+        "employee": "Tracie Barnes",
+        "brand": "Blossom",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 38615.67,
+        "visits": 120,
+        "rpv": 321.8
+      },
+      {
+        "employee": "Deanna Manganaro",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 32532.49,
+        "visits": 78,
+        "rpv": 417.08
+      },
+      {
+        "employee": "Carolyn Murphy",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 31019.56,
+        "visits": 66,
+        "rpv": 469.99
+      },
+      {
+        "employee": "Jules Lauria",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 29426.75,
+        "visits": 71,
+        "rpv": 414.46
+      },
+      {
+        "employee": "Joy Vega",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 29091.52,
+        "visits": 72,
+        "rpv": 404.05
+      },
+      {
+        "employee": "Nicole Teta",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 28344.98,
+        "visits": 65,
+        "rpv": 436.08
+      },
+      {
+        "employee": "Natalie Metcalf",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Body",
+        "partner": false,
+        "revenue": 25657.33,
+        "visits": 45,
+        "rpv": 570.16
+      },
+      {
+        "employee": "Franki Gasparini",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 25398.22,
+        "visits": 58,
+        "rpv": 437.9
+      },
+      {
+        "employee": "Monique Senarian",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 25108.19,
+        "visits": 52,
+        "rpv": 482.85
+      },
+      {
+        "employee": "Lauren  Huber",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 24396.25,
+        "visits": 110,
+        "rpv": 221.78
+      },
+      {
+        "employee": "Catherina Riehl-Cawi",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 23625.79,
+        "visits": 65,
+        "rpv": 363.47
+      },
+      {
+        "employee": "Courtney Boulay",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 23462.6,
+        "visits": 60,
+        "rpv": 391.04
+      },
+      {
+        "employee": "Kimberly Minor",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 23434.43,
+        "visits": 97,
+        "rpv": 241.59
+      },
+      {
+        "employee": "Danielle Norris",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 23113.13,
+        "visits": 52,
+        "rpv": 444.48
+      },
+      {
+        "employee": "Meredith Tucker",
+        "brand": "Carolina Age Management Institute",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 22041.13,
+        "visits": 87,
+        "rpv": 253.35
+      },
+      {
+        "employee": "Kari Guiler",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 21379.68,
+        "visits": 93,
+        "rpv": 229.89
+      },
+      {
+        "employee": "Krystle Anderson",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 20836.08,
+        "visits": 70,
+        "rpv": 297.66
+      },
+      {
+        "employee": "Adriana Bolduc",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 20779.66,
+        "visits": 40,
+        "rpv": 519.49
+      },
+      {
+        "employee": "Colleen Delrose",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 20023.77,
+        "visits": 35,
+        "rpv": 572.11
+      },
+      {
+        "employee": "Patricia Tavella",
+        "brand": "RN Esthetics",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 19613.54,
+        "visits": 67,
+        "rpv": 292.74
+      },
+      {
+        "employee": "Alexandra Osborne",
+        "brand": "Flawless",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 18339.42,
+        "visits": 97,
+        "rpv": 189.07
+      },
+      {
+        "employee": "Olivia Duncan",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 17674.05,
+        "visits": 69,
+        "rpv": 256.15
+      },
+      {
+        "employee": "Alexandria Flores",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 16765.56,
+        "visits": 58,
+        "rpv": 289.06
+      },
+      {
+        "employee": "Kristi Lock",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 16165.45,
+        "visits": 32,
+        "rpv": 505.17
+      },
+      {
+        "employee": "Rachel Appling",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 15121.13,
+        "visits": 47,
+        "rpv": 321.73
+      },
+      {
+        "employee": "Lorilee Wagner",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 14982.75,
+        "visits": 46,
+        "rpv": 325.71
+      },
+      {
+        "employee": "Camille Lucia",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 10539.67,
+        "visits": 31,
+        "rpv": 339.99
+      },
+      {
+        "employee": "Kiana De Lara",
+        "brand": "Flawless",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 10199.08,
+        "visits": 53,
+        "rpv": 192.44
+      },
+      {
+        "employee": "Rachel Starr",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 10064.15,
+        "visits": 27,
+        "rpv": 372.75
+      },
+      {
+        "employee": "Sierra Pacheco",
+        "brand": "Bair",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 9128.24,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Gabrielle Smith",
+        "brand": "Mint & Needle",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 8299.04,
+        "visits": 43,
+        "rpv": 193.0
+      },
+      {
+        "employee": "Avarose Scavio",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 7631.5,
+        "visits": 25,
+        "rpv": 305.26
+      },
+      {
+        "employee": "Claire Bueno-Bledsoe",
+        "brand": "The Laser Center of Marin",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 6099.63,
+        "visits": 23,
+        "rpv": 265.2
+      },
+      {
+        "employee": "Emma Ellison",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 4466.0,
+        "visits": 11,
+        "rpv": 406.0
+      },
+      {
+        "employee": "Kim Stoneburner",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 4109.46,
+        "visits": 15,
+        "rpv": 273.96
+      },
+      {
+        "employee": "Kendall Archuleta",
+        "brand": "Flawless",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 3624.75,
+        "visits": 13,
+        "rpv": 278.83
+      },
+      {
+        "employee": "Shazia Wells",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 3050.5,
+        "visits": 7,
+        "rpv": 435.79
+      },
+      {
+        "employee": "Anxhela Guzja",
+        "brand": "Dontage",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 3011.5,
+        "visits": 9,
+        "rpv": 334.61
+      },
+      {
+        "employee": "Jocelynn Garcia",
+        "brand": "Preva Aesthetics",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 2992.0,
+        "visits": 10,
+        "rpv": 299.2
+      },
+      {
+        "employee": "Cathy Sutherland Sutherland",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 2371.75,
+        "visits": 5,
+        "rpv": 474.35
+      },
+      {
+        "employee": "Cassie Puckett",
+        "brand": "Carolina Age Management Institute",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 2014.25,
+        "visits": 15,
+        "rpv": 134.28
+      },
+      {
+        "employee": "Janelle Romero-Otero",
+        "brand": "Bair",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 1660.93,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Lauren Hovet",
+        "brand": "Flawless",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 1475.8,
+        "visits": 10,
+        "rpv": 147.58
+      },
+      {
+        "employee": "Darci Pani",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 796.0,
+        "visits": 5,
+        "rpv": 159.2
+      },
+      {
+        "employee": "Madison Giles",
+        "brand": "Holden Timeless Beauty",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 693.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Ivonne Medina",
+        "brand": "Preva Aesthetics",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 400.0,
+        "visits": 5,
+        "rpv": 80.0
+      },
+      {
+        "employee": "Angela Warner",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 243.95,
+        "visits": 1,
+        "rpv": 243.95
+      },
+      {
+        "employee": "Karliah Wilson",
+        "brand": "Anne Therese Aesthetic Medicine",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Jessica Arens",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Elizabeth Martin",
+        "brand": "Mint & Needle",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Meredith Mattingly",
+        "brand": "Prive",
+        "region": "East Coast",
+        "department": "Estheticians",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      }
+    ],
+    "Surgery": [
+      {
+        "employee": "Edwin Williams",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": true,
+        "revenue": 305564.84,
+        "visits": 182,
+        "rpv": 1678.93
+      },
+      {
+        "employee": "Reginald Rice",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Surgery",
+        "partner": true,
+        "revenue": 114702.76,
+        "visits": 55,
+        "rpv": 2085.5
+      },
+      {
+        "employee": "Keimun Slaughter",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 99399.85,
+        "visits": 165,
+        "rpv": 602.42
+      },
+      {
+        "employee": "Daniel Lee",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 84895.52,
+        "visits": 97,
+        "rpv": 875.21
+      },
+      {
+        "employee": "Megan Vincze",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 54797.73,
+        "visits": 26,
+        "rpv": 2107.61
+      },
+      {
+        "employee": "Alfredo Lloreda",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 53591.5,
+        "visits": 180,
+        "rpv": 297.73
+      },
+      {
+        "employee": "Andrea Lord",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 26137.49,
+        "visits": 73,
+        "rpv": 358.05
+      },
+      {
+        "employee": "Stephanie Knox",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 17860.34,
+        "visits": 90,
+        "rpv": 198.45
+      },
+      {
+        "employee": "Brianna Garvansites",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 2673.0,
+        "visits": 14,
+        "rpv": 190.93
+      },
+      {
+        "employee": "Bonnie Mckenzie",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Tamara Bub",
+        "brand": "Esthetics Center",
+        "region": "West Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Adaceliz Carrion",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Jennifer Grant",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Justine Quay",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Marylyn Werndli",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      },
+      {
+        "employee": "Moira Verhagen",
+        "brand": "Williams Center",
+        "region": "East Coast",
+        "department": "Surgery",
+        "partner": false,
+        "revenue": 0.0,
+        "visits": 0,
+        "rpv": null
+      }
+    ]
+  }
 }

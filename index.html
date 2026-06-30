@@ -19,9 +19,17 @@
         <span class="updated-value" id="last-updated">—</span>
       </div>
     </div>
+    <!-- Top-level view switch -->
+    <nav class="view-switch" id="view-switch" aria-label="Dashboard views">
+      <button class="view-btn active" data-view="brands">Partner Brands</button>
+      <button class="view-btn" data-view="providers">Providers</button>
+    </nav>
   </header>
 
   <main class="container">
+    <!-- Provider type sub-tabs (only shown in Providers view) -->
+    <section class="subtabs" id="provider-subtabs" hidden></section>
+
     <!-- KPI summary cards -->
     <section class="kpi-grid" id="kpi-grid" aria-label="Summary metrics"></section>
 
@@ -29,14 +37,14 @@
     <section class="controls">
       <div class="filter-group" id="region-filters" role="group" aria-label="Region filter"></div>
       <div class="search-wrap">
-        <input type="search" id="search" placeholder="Search a provider…" autocomplete="off" />
+        <input type="search" id="search" placeholder="Search…" autocomplete="off" />
       </div>
     </section>
 
-    <!-- Revenue ranking chart -->
+    <!-- Ranking chart -->
     <section class="card chart-card">
       <div class="card-head">
-        <h2>Revenue by Provider</h2>
+        <h2 id="chart-title">Revenue by Provider</h2>
         <span class="card-hint" id="chart-hint">Ranked, current period</span>
       </div>
       <div class="chart-holder">
@@ -47,25 +55,12 @@
     <!-- Leaderboard table -->
     <section class="card">
       <div class="card-head">
-        <h2>Detailed Leaderboard</h2>
+        <h2 id="table-title">Detailed Leaderboard</h2>
         <span class="card-hint">Click a column header to sort</span>
       </div>
       <div class="table-scroll">
         <table id="leaderboard">
-          <thead>
-            <tr>
-              <th class="rank-col">#</th>
-              <th data-key="brand" class="text-col sortable">Provider</th>
-              <th data-key="region" class="text-col sortable">Region</th>
-              <th data-key="revenue" class="sortable num">Revenue</th>
-              <th data-key="rev_vs_lm" class="sortable num">vs Last Mo.</th>
-              <th data-key="rev_vs_sply" class="sortable num">vs Last Yr.</th>
-              <th data-key="visits" class="sortable num">Visits</th>
-              <th data-key="rpv" class="sortable num">RPV</th>
-              <th data-key="rebooked_rate" class="sortable num">Rebooked</th>
-              <th data-key="completed_rate" class="sortable num">Completed</th>
-            </tr>
-          </thead>
+          <thead id="leaderboard-head"></thead>
           <tbody id="leaderboard-body"></tbody>
         </table>
       </div>
