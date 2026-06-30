@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-06-30T18:17:36Z",
+  "period_label": "Month to Date",
+  "source": "Provider Leaderboard LiveExcel v2.xlsx",
+  "brands": [
+    { "brand": "Anne Therese Aesthetic Medicine", "region": "West Coast", "revenue": 611578.69, "revenue_lm": 633341.96, "revenue_sply": 549831.54, "visits": 1288, "visits_sply": 1268, "rpv": 474.83, "rpv_sply": 433.62, "rebooked_rate": 0.6773, "completed_rate": 0.8060 },
+    { "brand": "Blossom", "region": "East Coast", "revenue": 232696.64, "revenue_lm": 192423.86, "revenue_sply": 168489.32, "visits": 348, "visits_sply": 300, "rpv": 668.67, "rpv_sply": 561.63, "rebooked_rate": 0.7254, "completed_rate": 0.6397 },
+    { "brand": "Carolina Age Management Institute", "region": "East Coast", "revenue": 260251.90, "revenue_lm": 280536.00, "revenue_sply": 473503.05, "visits": 435, "visits_sply": 918, "rpv": 598.28, "rpv_sply": 515.80, "rebooked_rate": 0.8501, "completed_rate": 0.7050 },
+    { "brand": "Dontage", "region": "East Coast", "revenue": 702865.64, "revenue_lm": 726149.42, "revenue_sply": 577080.95, "visits": 951, "visits_sply": 874, "rpv": 739.08, "rpv_sply": 660.28, "rebooked_rate": 0.6789, "completed_rate": 0.7039 },
+    { "brand": "Esthetics Center", "region": "West Coast", "revenue": 1256126.16, "revenue_lm": 1400876.14, "revenue_sply": 1196669.89, "visits": 2170, "visits_sply": 1862, "rpv": 578.86, "rpv_sply": 642.68, "rebooked_rate": 0.6325, "completed_rate": 0.6223 },
+    { "brand": "Flawless", "region": "West Coast", "revenue": 193589.38, "revenue_lm": 202826.75, "revenue_sply": 234027.96, "visits": 491, "visits_sply": 601, "rpv": 394.28, "rpv_sply": 389.40, "rebooked_rate": 0.6858, "completed_rate": 0.7406 },
+    { "brand": "Holden Timeless Beauty", "region": "West Coast", "revenue": 557611.04, "revenue_lm": 570183.76, "revenue_sply": 552632.69, "visits": 881, "visits_sply": 1032, "rpv": 632.93, "rpv_sply": 535.50, "rebooked_rate": 0.7159, "completed_rate": 0.6076 },
+    { "brand": "Inbloom Health and Medispa", "region": "East Coast", "revenue": 150806.78, "revenue_lm": 196636.79, "revenue_sply": 159302.90, "visits": 288, "visits_sply": 361, "rpv": 523.63, "rpv_sply": 441.28, "rebooked_rate": 0.8681, "completed_rate": 0.7404 },
+    { "brand": "Mint & Needle", "region": "East Coast", "revenue": 263737.60, "revenue_lm": 317802.48, "revenue_sply": 234570.33, "visits": 494, "visits_sply": 447, "rpv": 533.88, "rpv_sply": 524.77, "rebooked_rate": 0.5769, "completed_rate": 0.7683 },
+    { "brand": "Preva Aesthetics", "region": "West Coast", "revenue": 822566.83, "revenue_lm": 861038.50, "revenue_sply": 783138.00, "visits": 802, "visits_sply": 637, "rpv": 1025.64, "rpv_sply": 1229.42, "rebooked_rate": 0.7257, "completed_rate": 0.7258 },
+    { "brand": "Prive", "region": "East Coast", "revenue": 448282.12, "revenue_lm": 439051.18, "revenue_sply": 440032.68, "visits": 771, "visits_sply": 889, "rpv": 581.43, "rpv_sply": 494.97, "rebooked_rate": 0.8352, "completed_rate": 0.5620 },
+    { "brand": "Refined Aesthetics", "region": "East Coast", "revenue": 409119.97, "revenue_lm": 538978.86, "revenue_sply": 390664.90, "visits": 551, "visits_sply": 545, "rpv": 742.50, "rpv_sply": 716.82, "rebooked_rate": 0.5209, "completed_rate": 0.7476 },
+    { "brand": "RN Esthetics", "region": "East Coast", "revenue": 1181350.39, "revenue_lm": 1185694.68, "revenue_sply": 948545.53, "visits": 1763, "visits_sply": 1620, "rpv": 670.08, "rpv_sply": 585.52, "rebooked_rate": 0.7159, "completed_rate": 0.7829 },
+    { "brand": "The Laser Center of Marin", "region": "West Coast", "revenue": 332469.86, "revenue_lm": 331406.12, "revenue_sply": 298637.57, "visits": 493, "visits_sply": 493, "rpv": 674.38, "rpv_sply": 605.76, "rebooked_rate": 0.7708, "completed_rate": 0.7913 },
+    { "brand": "Williams Center", "region": "East Coast", "revenue": 957458.11, "revenue_lm": 1267025.20, "revenue_sply": 956504.82, "visits": 1526, "visits_sply": 1471, "rpv": 627.43, "rpv_sply": 650.24, "rebooked_rate": 0.5771, "completed_rate": 0.6782 }
+  ]
+}

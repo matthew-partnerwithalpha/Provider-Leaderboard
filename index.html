@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Provider Leaderboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand-block">
+        <h1>Provider Leaderboard</h1>
+        <p class="subtitle" id="period-label">Month to Date</p>
+      </div>
+      <div class="updated-block">
+        <span class="updated-label">Last updated</span>
+        <span class="updated-value" id="last-updated">—</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- KPI summary cards -->
+    <section class="kpi-grid" id="kpi-grid" aria-label="Summary metrics"></section>
+
+    <!-- Controls -->
+    <section class="controls">
+      <div class="filter-group" id="region-filters" role="group" aria-label="Region filter"></div>
+      <div class="search-wrap">
+        <input type="search" id="search" placeholder="Search a provider…" autocomplete="off" />
+      </div>
+    </section>
+
+    <!-- Revenue ranking chart -->
+    <section class="card chart-card">
+      <div class="card-head">
+        <h2>Revenue by Provider</h2>
+        <span class="card-hint" id="chart-hint">Ranked, current period</span>
+      </div>
+      <div class="chart-holder">
+        <canvas id="revenue-chart"></canvas>
+      </div>
+    </section>
+
+    <!-- Leaderboard table -->
+    <section class="card">
+      <div class="card-head">
+        <h2>Detailed Leaderboard</h2>
+        <span class="card-hint">Click a column header to sort</span>
+      </div>
+      <div class="table-scroll">
+        <table id="leaderboard">
+          <thead>
+            <tr>
+              <th class="rank-col">#</th>
+              <th data-key="brand" class="text-col sortable">Provider</th>
+              <th data-key="region" class="text-col sortable">Region</th>
+              <th data-key="revenue" class="sortable num">Revenue</th>
+              <th data-key="rev_vs_lm" class="sortable num">vs Last Mo.</th>
+              <th data-key="rev_vs_sply" class="sortable num">vs Last Yr.</th>
+              <th data-key="visits" class="sortable num">Visits</th>
+              <th data-key="rpv" class="sortable num">RPV</th>
+              <th data-key="rebooked_rate" class="sortable num">Rebooked</th>
+              <th data-key="completed_rate" class="sortable num">Completed</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="footnote" id="footnote"></p>
+  </main>
+
+  <div id="error-banner" class="error-banner" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
