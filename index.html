@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Provider Leaderboard</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=3" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 </head>
 <body>
@@ -19,7 +19,6 @@
         <span class="updated-value" id="last-updated">—</span>
       </div>
     </div>
-    <!-- Top-level view switch -->
     <nav class="view-switch" id="view-switch" aria-label="Dashboard views">
       <button class="view-btn active" data-view="brands">Partner Brands</button>
       <button class="view-btn" data-view="providers">Providers</button>
@@ -27,32 +26,32 @@
   </header>
 
   <main class="container">
-    <!-- Provider type sub-tabs (only shown in Providers view) -->
+    <section class="segment-switch" id="segment-switch" role="group" aria-label="Time period"></section>
     <section class="subtabs" id="provider-subtabs" hidden></section>
-
-    <!-- KPI summary cards -->
     <section class="kpi-grid" id="kpi-grid" aria-label="Summary metrics"></section>
 
-    <!-- Controls -->
     <section class="controls">
-      <div class="filter-group" id="region-filters" role="group" aria-label="Region filter"></div>
+      <div class="controls-left">
+        <div class="filter-group" id="region-filters" role="group" aria-label="Region filter"></div>
+        <label class="switch-wrap" id="partner-toggle-wrap" hidden>
+          <input type="checkbox" id="partner-toggle" checked />
+          <span class="switch-track"><span class="switch-thumb"></span></span>
+          <span class="switch-label">Include partners</span>
+        </label>
+      </div>
       <div class="search-wrap">
         <input type="search" id="search" placeholder="Search…" autocomplete="off" />
       </div>
     </section>
 
-    <!-- Ranking chart -->
     <section class="card chart-card">
       <div class="card-head">
         <h2 id="chart-title">Revenue by Provider</h2>
-        <span class="card-hint" id="chart-hint">Ranked, current period</span>
+        <span class="card-hint" id="chart-hint">Ranked</span>
       </div>
-      <div class="chart-holder">
-        <canvas id="revenue-chart"></canvas>
-      </div>
+      <div class="chart-holder"><canvas id="revenue-chart"></canvas></div>
     </section>
 
-    <!-- Leaderboard table -->
     <section class="card">
       <div class="card-head">
         <h2 id="table-title">Detailed Leaderboard</h2>
@@ -72,6 +71,6 @@
   <div id="error-banner" class="error-banner" hidden></div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="script.js"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>

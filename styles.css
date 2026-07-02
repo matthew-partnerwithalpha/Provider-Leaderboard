@@ -97,6 +97,66 @@ body {
   padding: 24px;
 }
 
+/* Segment toggle (MTD / Q1 / Q2 / YTD) */
+.segment-switch {
+  display: inline-flex;
+  gap: 2px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 3px;
+  margin-bottom: 18px;
+}
+.seg-btn {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.seg-btn:hover { color: var(--text); }
+.seg-btn.active { background: var(--accent); color: #fff; }
+
+/* Partner include toggle (switch) */
+.switch-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
+}
+.switch-wrap input { position: absolute; opacity: 0; width: 0; height: 0; }
+.switch-track {
+  width: 38px;
+  height: 22px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  position: relative;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  flex: 0 0 auto;
+}
+.switch-thumb {
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 16px; height: 16px;
+  background: var(--text-dim);
+  border-radius: 50%;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.switch-wrap input:checked + .switch-track { background: var(--accent-soft); border-color: var(--accent); }
+.switch-wrap input:checked + .switch-track .switch-thumb { transform: translateX(16px); background: var(--accent); }
+.switch-wrap input:checked ~ .switch-label { color: var(--text); }
+
+.controls-left { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+
 /* Provider sub-tabs */
 .subtabs {
   display: flex;
