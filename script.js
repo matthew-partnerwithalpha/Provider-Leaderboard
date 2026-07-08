@@ -1,24 +1,24 @@
-/* Provider Leaderboard dashboard
+/* Alpha Leaderboard dashboard
  * Views: "brands" (Partner Brand) and "providers" (Injectors / Esty-Body-Wellness / Surgery).
- * Time segments: MTD, Q1, Q2, YTD. Reads ./data.json. See SETUP-GUIDE.md.
+ * Segments: MTD, Q1, Q2, Q3, YTD. Reads ./data.json. See SETUP-GUIDE.md.
  */
 
 const state = {
-  data: null,
-  view: "brands",
-  segment: "MTD",
-  providerType: null,
-  includePartners: true,
-  region: "All",
-  search: "",
-  sortKey: "revenue",
-  sortDir: "desc",
-  chart: null,
+  data: null, view: "brands", segment: "MTD", providerType: null,
+  includePartners: true, region: "All", search: "",
+  sortKey: "revenue", sortDir: "desc", chart: null,
 };
+
+// revenue-only entities (we only collect revenue + partner flag for these)
+function isRevenueOnly(brand) {
+  const n = String(brand || "").toLowerCase();
+  return n.indexOf("lexrx") !== -1 || n.indexOf("lex rx") !== -1 || n.indexOf("bair") !== -1;
+}
+const DASH_KEYS = ["visits", "rpv", "rpd", "clinics_days_worked", "rebooked_rate", "completed_rate"];
 
 const BRAND_COLS_MTD = [
   { key: "rank", label: "#", cls: "rank-col" },
-  { key: "brand", label: "Provider", cls: "text-col", sort: true },
+  { key: "brand", label: "Partner Brand", cls: "text-col", sort: true },
   { key: "region", label: "Region", cls: "text-col", sort: true },
   { key: "revenue", label: "Revenue", cls: "num", sort: true },
   { key: "visits", label: "Visits", cls: "num", sort: true },
@@ -31,7 +31,7 @@ const BRAND_COLS_MTD = [
 ];
 const BRAND_COLS_SEG = [
   { key: "rank", label: "#", cls: "rank-col" },
-  { key: "brand", label: "Provider", cls: "text-col", sort: true },
+  { key: "brand", label: "Partner Brand", cls: "text-col", sort: true },
   { key: "region", label: "Region", cls: "text-col", sort: true },
   { key: "revenue", label: "Revenue", cls: "num", sort: true },
   { key: "visits", label: "Visits", cls: "num", sort: true },
@@ -47,6 +47,8 @@ const PROVIDER_COLS_MTD = [
   { key: "revenue", label: "Revenue", cls: "num", sort: true },
   { key: "visits", label: "Visits", cls: "num", sort: true },
   { key: "rpv", label: "RPV", cls: "num", sort: true },
+  { key: "rpd", label: "RPD", cls: "num", sort: true },
+  { key: "clinics_days_worked", label: "Clinic Days", cls: "num", sort: true },
   { key: "rebooked_rate", label: "Rebooked", cls: "num", sort: true },
   { key: "completed_rate", label: "Completed", cls: "num", sort: true },
   { key: "revenue_lm", label: "Revenue LM", cls: "num", sort: true },
@@ -60,6 +62,8 @@ const PROVIDER_COLS_SEG = [
   { key: "revenue", label: "Revenue", cls: "num", sort: true },
   { key: "visits", label: "Visits", cls: "num", sort: true },
   { key: "rpv", label: "RPV", cls: "num", sort: true },
+  { key: "rpd", label: "RPD", cls: "num", sort: true },
+  { key: "clinics_days_worked", label: "Clinic Days", cls: "num", sort: true },
   { key: "rebooked_rate", label: "Rebooked", cls: "num", sort: true },
   { key: "completed_rate", label: "Completed", cls: "num", sort: true },
   { key: "partner", label: "Partner", cls: "num", sort: true },
@@ -106,39 +110,32 @@ function formatTimestamp(iso) {
   if (isNaN(dt)) return iso;
   return dt.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
 }
+function segLabel(seg) { return (state.data.segment_labels && state.data.segment_labels[seg]) || seg; }
 
-function segLabel(seg) {
-  return (state.data.segment_labels && state.data.segment_labels[seg]) || seg;
-}
-
-function currentRows() {
+function baseRows() {
   const d = state.data;
-  let rows;
-  if (state.view === "brands") {
-    rows = (d.brands && d.brands[state.segment]) || [];
-  } else {
-    const grp = (d.provider_groups && d.provider_groups[state.providerType]) || {};
-    rows = grp[state.segment] || [];
-    if (!state.includePartners) rows = rows.filter((r) => !r.partner);
-  }
+  if (state.view === "brands") return (d.brands && d.brands[state.segment]) || [];
+  const grp = (d.provider_groups && d.provider_groups[state.providerType]) || {};
+  let rows = grp[state.segment] || [];
+  if (!state.includePartners) rows = rows.filter((r) => !r.partner);
   return rows;
 }
 function nameKey() { return state.view === "brands" ? "brand" : "employee"; }
 
 function buildSegmentSwitch() {
-  const segs = state.data.segments || ["MTD", "Q1", "Q2", "YTD"];
-  const wrap = document.getElementById("segment-switch");
-  wrap.innerHTML = segs
+  const segs = state.data.segments || ["MTD", "Q1", "Q2", "Q3", "YTD"];
+  document.getElementById("segment-switch").innerHTML = segs
     .map((s) => `<button class="seg-btn ${s === state.segment ? "active" : ""}" data-seg="${s}">${escapeHtml(segLabel(s))}</button>`)
     .join("");
 }
 
 function visibleRows() {
-  let rows = currentRows().slice();
+  let rows = baseRows().slice();
+  // hide anyone with zero / missing revenue (until they earn some)
+  rows = rows.filter((r) => r.revenue != null && r.revenue > 0);
   if (state.region !== "All") rows = rows.filter((r) => r.region === state.region);
   if (state.search) {
-    const q = state.search.toLowerCase();
-    const nk = nameKey();
+    const q = state.search.toLowerCase(), nk = nameKey();
     rows = rows.filter((r) => String(r[nk]).toLowerCase().includes(q) || String(r.brand || "").toLowerCase().includes(q));
   }
   const sortKey = state.sortKey, sortDir = state.sortDir;
@@ -158,7 +155,8 @@ function visibleRows() {
 function render() {
   syncChrome();
   const rows = visibleRows();
-  renderKpis();
+  renderSummary(rows);
+  renderKpis(rows);
   renderChart(rows);
   renderHead();
   renderBody(rows);
@@ -172,31 +170,30 @@ function syncChrome() {
 
   const subtabs = document.getElementById("provider-subtabs");
   const partnerWrap = document.getElementById("partner-toggle-wrap");
+  const summary = document.getElementById("provider-summary");
 
   if (state.view === "providers") {
-    subtabs.hidden = false;
+    subtabs.hidden = false; partnerWrap.hidden = false; summary.hidden = false;
     const groups = Object.keys(state.data.provider_groups || {});
     subtabs.innerHTML = groups
       .map((g) => `<button class="subtab ${g === state.providerType ? "active" : ""}" data-group="${escapeAttr(g)}">${escapeHtml(g)}</button>`)
       .join("");
-    partnerWrap.hidden = false;
     document.getElementById("chart-title").textContent = state.providerType + " — Revenue";
     document.getElementById("chart-hint").textContent = "Top 15 by revenue · " + segLabel(state.segment);
     document.getElementById("table-title").textContent = state.providerType + " Leaderboard — " + segLabel(state.segment);
     document.getElementById("search").placeholder = "Search a person or brand...";
   } else {
-    subtabs.hidden = true;
-    partnerWrap.hidden = true;
-    document.getElementById("chart-title").textContent = "Revenue by Provider";
+    subtabs.hidden = true; partnerWrap.hidden = true; summary.hidden = true;
+    document.getElementById("chart-title").textContent = "Revenue by Partner Brand";
     document.getElementById("chart-hint").textContent = "Ranked · " + segLabel(state.segment);
     document.getElementById("table-title").textContent = "Detailed Leaderboard — " + segLabel(state.segment);
-    document.getElementById("search").placeholder = "Search a provider...";
+    document.getElementById("search").placeholder = "Search a partner brand...";
   }
   buildRegionFilters();
 }
 
 function buildRegionFilters() {
-  const regions = ["All"].concat([...new Set(currentRows().map((r) => r.region).filter(Boolean))]);
+  const regions = ["All"].concat([...new Set(baseRows().map((r) => r.region).filter(Boolean))]);
   const wrap = document.getElementById("region-filters");
   wrap.innerHTML = "";
   regions.forEach((reg) => {
@@ -208,20 +205,39 @@ function buildRegionFilters() {
   });
 }
 
-function renderKpis() {
-  const rows = state.region === "All" ? currentRows() : currentRows().filter((r) => r.region === state.region);
+// Top 3 podium (providers only)
+function renderSummary(rows) {
+  if (state.view !== "providers") return;
+  const top = rows.slice().sort((a, b) => b.revenue - a.revenue).slice(0, 3);
+  const ranks = ["1ST", "2ND", "3RD"];
+  const el = document.getElementById("provider-summary");
+  if (!top.length) { el.innerHTML = ""; return; }
+  el.innerHTML = top.map((r, i) => {
+    const ro = isRevenueOnly(r.brand);
+    const sub = ro ? "" : `${fmtNum(r.visits)} visits · ${fmtMoney(r.rpv)} RPV`;
+    return `<div class="podium ${i === 0 ? "rank1" : ""}">
+      <div class="podium-rank">${ranks[i]} · ${escapeHtml(state.providerType)}</div>
+      <div class="podium-name">${escapeHtml(r.employee)}</div>
+      <div class="podium-brand">${escapeHtml(r.brand || "")}</div>
+      <div class="podium-rev">${fmtMoney(r.revenue)}</div>
+      ${sub ? `<div class="podium-sub">${sub}</div>` : ""}
+    </div>`;
+  }).join("");
+}
+
+function renderKpis(rows) {
   const totalRev = rows.reduce((s, r) => s + (r.revenue || 0), 0);
   const totalVisits = rows.reduce((s, r) => s + (r.visits || 0), 0);
   const avgRpv = totalVisits ? totalRev / totalVisits : 0;
-
   let cards;
   if (state.view === "brands") {
-    const avgReb = rows.length ? rows.reduce((s, r) => s + (r.rebooked_rate || 0), 0) / rows.length : 0;
+    const withReb = rows.filter((r) => r.rebooked_rate != null && !isRevenueOnly(r.brand));
+    const avgReb = withReb.length ? withReb.reduce((s, r) => s + r.rebooked_rate, 0) / withReb.length : 0;
     cards = [
       { label: "Total Revenue", value: fmtMoneyK(totalRev), sub: segLabel(state.segment) },
-      { label: "Total Visits", value: fmtNum(totalVisits), sub: rows.length + " providers" },
+      { label: "Total Visits", value: fmtNum(totalVisits), sub: rows.length + " partner brands" },
       { label: "Avg Revenue / Visit", value: fmtMoney(avgRpv), sub: "blended" },
-      { label: "Avg Rebooked Rate", value: fmtPct(avgReb), sub: "across providers" },
+      { label: "Avg Rebooked Rate", value: fmtPct(avgReb), sub: "collected brands" },
     ];
   } else {
     const partners = rows.filter((r) => r.partner).length;
@@ -247,13 +263,13 @@ function renderChart(rows) {
   if (state.chart) state.chart.destroy();
   state.chart = new Chart(ctx, {
     type: "bar",
-    data: { labels: labels, datasets: [{ label: "Revenue", data: values, backgroundColor: "#5b8def", borderRadius: 5, maxBarThickness: 26 }] },
+    data: { labels: labels, datasets: [{ label: "Revenue", data: values, backgroundColor: "#B7A6C8", borderColor: "#8E79A8", borderWidth: 1, borderRadius: 5, maxBarThickness: 26 }] },
     options: {
       indexAxis: "y", responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => " " + fmtMoney(c.parsed.x) } } },
       scales: {
-        x: { ticks: { color: "#9aa2b4", callback: (v) => fmtMoneyK(v) }, grid: { color: "rgba(255,255,255,0.05)" } },
-        y: { ticks: { color: "#e8eaf0", font: { size: 12 } }, grid: { display: false } },
+        x: { ticks: { color: "#5f584c", callback: (v) => fmtMoneyK(v) }, grid: { color: "rgba(21,19,17,0.07)" } },
+        y: { ticks: { color: "#151311", font: { size: 12, weight: "600" } }, grid: { display: false } },
       },
     },
   });
@@ -273,7 +289,7 @@ function renderBody(rows) {
   const cols = activeCols();
   const body = document.getElementById("leaderboard-body");
   if (!rows.length) {
-    body.innerHTML = `<tr><td colspan="${cols.length}" style="text-align:center;color:var(--text-dim);padding:28px">No results match.</td></tr>`;
+    body.innerHTML = `<tr><td colspan="${cols.length}" style="text-align:center;color:var(--ink-soft);padding:28px">No results with revenue yet.</td></tr>`;
     return;
   }
   body.innerHTML = rows.map((r, i) => {
@@ -283,6 +299,8 @@ function renderBody(rows) {
 }
 
 function cell(r, c, i) {
+  const ro = isRevenueOnly(r.brand);
+  if (ro && DASH_KEYS.indexOf(c.key) !== -1) return `<td class="num muted-dash">—</td>`;
   switch (c.key) {
     case "rank": return `<td class="rank-col">${i + 1}</td>`;
     case "brand":
@@ -292,11 +310,13 @@ function cell(r, c, i) {
     case "revenue_lm": return `<td class="num">${fmtMoney(r.revenue_lm)}</td>`;
     case "revenue_sply": return `<td class="num">${fmtMoney(r.revenue_sply)}</td>`;
     case "rpv": return `<td class="num">${fmtMoney(r.rpv)}</td>`;
+    case "rpd": return `<td class="num">${fmtMoney(r.rpd)}</td>`;
+    case "clinics_days_worked": return `<td class="num">${fmtNum(r.clinics_days_worked)}</td>`;
     case "visits": return `<td class="num">${fmtNum(r.visits)}</td>`;
     case "pct_budget": return `<td class="num">${fmtPct(r.pct_budget)}</td>`;
     case "rebooked_rate": return `<td class="num">${fmtPct(r.rebooked_rate)}</td>`;
     case "completed_rate": return `<td class="num">${fmtPct(r.completed_rate)}</td>`;
-    case "partner": return `<td class="num">${r.partner ? '<span class="partner-badge">Partner</span>' : '<span class="delta-flat">—</span>'}</td>`;
+    case "partner": return `<td class="num">${r.partner ? '<span class="partner-badge">Partner</span>' : '<span class="muted-dash">—</span>'}</td>`;
     default: return `<td class="num">${escapeHtml(String(r[c.key] == null ? "—" : r[c.key]))}</td>`;
   }
 }
@@ -308,9 +328,7 @@ function syncSortHeaders() {
   });
 }
 
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-}
+function escapeHtml(s) { return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 function escapeAttr(s) { return escapeHtml(s); }
 function showError(msg) { const el = document.getElementById("error-banner"); el.textContent = msg; el.hidden = false; }
 
@@ -322,7 +340,6 @@ document.getElementById("view-switch").addEventListener("click", (e) => {
   document.getElementById("search").value = "";
   render();
 });
-
 document.getElementById("segment-switch").addEventListener("click", (e) => {
   const btn = e.target.closest(".seg-btn");
   if (!btn || btn.dataset.seg === state.segment) return;
@@ -330,7 +347,6 @@ document.getElementById("segment-switch").addEventListener("click", (e) => {
   if (!activeCols().some((c) => c.key === state.sortKey)) { state.sortKey = "revenue"; state.sortDir = "desc"; }
   render();
 });
-
 document.getElementById("provider-subtabs").addEventListener("click", (e) => {
   const btn = e.target.closest(".subtab");
   if (!btn) return;
@@ -338,21 +354,15 @@ document.getElementById("provider-subtabs").addEventListener("click", (e) => {
   state.region = "All"; state.sortKey = "revenue"; state.sortDir = "desc";
   render();
 });
-
-document.getElementById("partner-toggle").addEventListener("change", (e) => {
-  state.includePartners = e.target.checked;
-  render();
-});
-
+document.getElementById("partner-toggle").addEventListener("change", (e) => { state.includePartners = e.target.checked; render(); });
 document.getElementById("leaderboard").addEventListener("click", (e) => {
   const th = e.target.closest("th.sortable");
   if (!th) return;
   const key = th.dataset.key;
   if (state.sortKey === key) state.sortDir = state.sortDir === "asc" ? "desc" : "asc";
-  else { state.sortKey = key; state.sortDir = ["brand", "region", "employee"].includes(key) ? "asc" : "desc"; }
+  else { state.sortKey = key; state.sortDir = ["brand", "region", "employee"].indexOf(key) !== -1 ? "asc" : "desc"; }
   render();
 });
-
 document.getElementById("search").addEventListener("input", (e) => { state.search = e.target.value.trim(); render(); });
 
 load();
