@@ -14,6 +14,33 @@ function isRevenueOnly(brand) {
 }
 const DASH_KEYS = ["visits", "rpv", "rpd", "clinics_days_worked", "rebooked_rate", "completed_rate"];
 
+// Partner-brand abbreviations (for the ticker)
+const BRAND_ABBR = {
+  "Anne Therese Aesthetic Medicine": "ATAM",
+  "Blossom": "BLSM",
+  "Carolina Age Management Institute": "CAMI",
+  "Dontage": "DNTGE",
+  "Esthetics Center": "EC",
+  "Flawless": "FLWSS",
+  "Holden Timeless Beauty": "HTB",
+  "Inbloom Health and Medispa": "INBLM",
+  "Mint & Needle": "MN",
+  "Preva Aesthetics": "PRVA",
+  "Prive": "PRVE",
+  "Refined Aesthetics": "RA",
+  "RN Esthetics": "RNE",
+  "The Laser Center of Marin": "LCM",
+  "Williams Center": "TWC",
+  "LexRx": "LexRX",
+  "Bair": "Bair",
+  "Blossom, Refined Aesthetics": "BLSM - RA",
+  "Inbloom Health and Medispa, RN Esthetics": "INBLM - RNE",
+};
+function brandAbbr(name) {
+  const n = String(name || "").trim();
+  return BRAND_ABBR[n] || n;
+}
+
 const BRAND_COLS_MTD = [
   { key: "rank", label: "#", cls: "rank-col" },
   { key: "brand", label: "Partner Brand", cls: "text-col", sort: true },
@@ -148,7 +175,10 @@ function buildTicker() {
     html += `<span class="tk-cat">&#9654; ${escapeHtml(c.t)}</span>`;
     c.rows.forEach((r, i) => {
       count++;
-      html += `<span class="tk-item"><span class="tk-rank">${i + 1}</span>${escapeHtml(String(r[c.nk]))}<span class="tk-val">${c.fmt(r[c.key])}</span></span>`;
+      const tkName = c.nk === "employee"
+        ? escapeHtml(String(r.employee)) + " (" + escapeHtml(brandAbbr(r.brand)) + ")"
+        : escapeHtml(String(r[c.nk]));
+      html += `<span class="tk-item"><span class="tk-rank">${i + 1}</span>${tkName}<span class="tk-val">${c.fmt(r[c.key])}</span></span>`;
       if (i < c.rows.length - 1) html += `<span class="tk-sep">&bull;</span>`;
     });
   });
@@ -349,7 +379,7 @@ function renderBody(rows) {
     return;
   }
   body.innerHTML = rows.map((r, i) => {
-    const topClass = i === 0 && state.sortDir === "desc" && state.sortKey === "revenue" ? "top-rank" : "";
+    const topClass = i === 0 && ["brand", "region", "employee", "partner"].indexOf(state.sortKey) === -1 ? "top-rank" : "";
     return `<tr class="${topClass}">` + cols.map((c) => cell(r, c, i)).join("") + "</tr>";
   }).join("");
 }
