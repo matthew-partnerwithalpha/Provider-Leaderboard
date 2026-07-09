@@ -6,18 +6,15 @@
   <title>Alpha Leaderboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Bungee&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=5" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
       <div class="title-block">
-        <div class="mv-title">
-          <span class="mv-alpha">ALPHA</span>
-          <span class="mv-leader">LEADERBOARD</span>
-        </div>
+        <h1 class="mv-title"><span class="mv-a">ALPHA</span><span class="mv-b">LEADERBOARD</span></h1>
         <div class="mv-rule"></div>
         <div class="mv-sub" id="period-label">YTD 2026</div>
       </div>
@@ -28,6 +25,12 @@
     </div>
   </header>
 
+  <!-- ESPN-style scrolling ticker (MTD highlight reel) -->
+  <div class="ticker" id="ticker" aria-label="Live leaderboard ticker">
+    <span class="ticker-badge">MTD&nbsp;LIVE</span>
+    <div class="ticker-viewport"><div class="ticker-track" id="ticker-track"></div></div>
+  </div>
+
   <main class="container">
     <nav class="view-switch" id="view-switch" aria-label="Dashboard views">
       <button class="view-btn active" data-view="brands">Partner Brands</button>
@@ -37,7 +40,6 @@
     <section class="segment-switch" id="segment-switch" role="group" aria-label="Time period"></section>
     <section class="subtabs" id="provider-subtabs" hidden></section>
 
-    <!-- Top 3 summary (providers only) -->
     <section class="summary" id="provider-summary" hidden></section>
 
     <section class="kpi-grid" id="kpi-grid" aria-label="Summary metrics"></section>
@@ -83,6 +85,6 @@
   <div id="error-banner" class="error-banner" hidden></div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="script.js?v=4"></script>
+  <script src="script.js?v=5"></script>
 </body>
 </html>
