@@ -451,4 +451,29 @@ document.getElementById("leaderboard").addEventListener("click", (e) => {
 });
 document.getElementById("search").addEventListener("input", (e) => { state.search = e.target.value.trim(); render(); });
 
+/* ===== Password gate ===== */
+function initGate() {
+  const gate = document.getElementById("gate");
+  if (!gate) return;
+  const PASS = "keepclimbing";
+  try { if (sessionStorage.getItem("alpha_unlocked") === "1") { gate.remove(); return; } } catch (e) {}
+  const input = document.getElementById("gate-pass");
+  const btn = document.getElementById("gate-btn");
+  const err = document.getElementById("gate-err");
+  function tryUnlock() {
+    if (String(input.value || "").trim().toLowerCase() === PASS) {
+      try { sessionStorage.setItem("alpha_unlocked", "1"); } catch (e) {}
+      gate.classList.add("gate-out");
+      setTimeout(() => gate.remove(), 300);
+    } else {
+      err.hidden = false; input.value = ""; input.focus();
+      gate.classList.add("shake"); setTimeout(() => gate.classList.remove("shake"), 400);
+    }
+  }
+  btn.addEventListener("click", tryUnlock);
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") tryUnlock(); });
+  input.focus();
+}
+initGate();
+
 load();

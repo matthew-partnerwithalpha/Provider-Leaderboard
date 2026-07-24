@@ -173,3 +173,38 @@ td.rank-col { text-align: center; color: var(--muted); font-variant-numeric: tab
   .mv-title { font-size: 34px; }
   .topbar-inner, .container { padding-left: 16px; padding-right: 16px; }
 }
+
+/* ===== Password gate ===== */
+.gate {
+  position: fixed; inset: 0; z-index: 1000;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--bg);
+  background-image:
+    radial-gradient(1100px 500px at 20% 0%, rgba(183,166,200,0.16), transparent 60%),
+    radial-gradient(900px 460px at 85% 10%, rgba(234,217,142,0.12), transparent 60%);
+}
+.gate.gate-out { opacity: 0; transition: opacity .3s ease; pointer-events: none; }
+.gate-box {
+  width: 90%; max-width: 460px; text-align: center;
+  background: #17131d; border: 2px solid var(--yellow); border-radius: 16px;
+  padding: 40px 36px; box-shadow: 0 0 40px rgba(234,217,142,0.35), inset 0 0 30px rgba(234,217,142,0.05);
+}
+.gate-title { font-family: "Bungee", "Archivo", sans-serif; font-size: 30px; color: var(--yellow); letter-spacing: 0.04em; filter: drop-shadow(0 0 14px rgba(234,217,142,0.45)); }
+.gate-sub { font-family: "Archivo", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; color: var(--lav); font-size: 12.5px; margin: 14px 0 26px; line-height: 1.5; }
+.gate-input {
+  width: 100%; text-align: center; font-family: "Archivo", sans-serif; font-weight: 700; letter-spacing: 0.18em;
+  text-transform: uppercase; font-size: 15px; color: var(--ink); background: #100c15;
+  border: 2px solid var(--yellow); border-radius: 10px; padding: 14px 16px; outline: none;
+  box-shadow: 0 0 14px rgba(234,217,142,0.25);
+}
+.gate-input::placeholder { color: #6b6478; letter-spacing: 0.18em; }
+.gate-btn {
+  width: 100%; margin-top: 16px; cursor: pointer; border: none; border-radius: 10px; padding: 15px;
+  font-family: "Archivo", sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: 0.12em; font-size: 15px;
+  color: var(--dark); background: linear-gradient(180deg, #F3C64B 0%, #EAD98E 100%);
+  box-shadow: 0 0 18px rgba(234,217,142,0.4);
+}
+.gate-btn:hover { filter: brightness(1.06); }
+.gate-err { color: #ff8a7a; font-size: 12.5px; font-weight: 600; margin-top: 14px; }
+.gate.shake .gate-box { animation: gate-shake .4s ease; }
+@keyframes gate-shake { 0%,100%{transform:translateX(0);} 20%{transform:translateX(-8px);} 40%{transform:translateX(8px);} 60%{transform:translateX(-5px);} 80%{transform:translateX(5px);} }

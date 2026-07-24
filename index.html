@@ -7,10 +7,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Bungee&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="styles.css?v=7" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 </head>
 <body>
+  <!-- Password gate -->
+  <div id="gate" class="gate">
+    <div class="gate-box">
+      <div class="gate-title">ALPHA LEADERBOARD</div>
+      <div class="gate-sub">ENTER PASSWORD TO VIEW THE LEADERBOARD</div>
+      <input id="gate-pass" class="gate-input" type="password" placeholder="PASSWORD" autocomplete="off" spellcheck="false" />
+      <button id="gate-btn" class="gate-btn">UNLOCK</button>
+      <div id="gate-err" class="gate-err" hidden>Incorrect password — try again</div>
+    </div>
+  </div>
   <header class="topbar">
     <div class="topbar-inner">
       <div class="title-block">
@@ -85,6 +95,6 @@
   <div id="error-banner" class="error-banner" hidden></div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="script.js?v=6"></script>
+  <script src="script.js?v=7"></script>
 </body>
 </html>
