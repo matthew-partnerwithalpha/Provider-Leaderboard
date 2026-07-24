@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T14:18:17.741Z",
+  "generated_at": "2026-07-24T17:21:19.135Z",
   "segments": [
     "MTD",
     "Q1",
@@ -3341,20 +3341,6 @@
           "rpd": 1871.19
         },
         {
-          "employee": "Megan Vincze",
-          "brand": "Esthetics Center",
-          "region": "West Coast",
-          "department": "Surgery, Injectors",
-          "partner": false,
-          "revenue": 207040.46,
-          "visits": 92,
-          "rpv": 2250.44,
-          "rebooked_rate": 0.8,
-          "completed_rate": 0.7712,
-          "clinics_days_worked": 37,
-          "rpd": 5595.69
-        },
-        {
           "employee": "Alixandra Breedwell",
           "brand": "Esthetics Center",
           "region": "West Coast",
@@ -3832,7 +3818,7 @@
         },
         {
           "employee": "Lindsay Luciano",
-          "brand": "Inbloom Health and Medispa, RN Esthetics",
+          "brand": "RN Esthetics",
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
@@ -5429,20 +5415,6 @@
           "rpd": 2731.15
         },
         {
-          "employee": "Megan Vincze",
-          "brand": "Esthetics Center",
-          "region": "West Coast",
-          "department": "Surgery, Injectors",
-          "partner": false,
-          "revenue": 170659.42,
-          "visits": 100,
-          "rpv": 1706.59,
-          "rebooked_rate": 0.7347,
-          "completed_rate": 0.7279,
-          "clinics_days_worked": 43,
-          "rpd": 3968.82
-        },
-        {
           "employee": "Alixandra Breedwell",
           "brand": "Esthetics Center",
           "region": "West Coast",
@@ -5920,7 +5892,7 @@
         },
         {
           "employee": "Lindsay Luciano",
-          "brand": "Inbloom Health and Medispa, RN Esthetics",
+          "brand": "RN Esthetics",
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
@@ -7517,20 +7489,6 @@
           "rpd": 1991.82
         },
         {
-          "employee": "Megan Vincze",
-          "brand": "Esthetics Center",
-          "region": "West Coast",
-          "department": "Surgery, Injectors",
-          "partner": false,
-          "revenue": 43355.13,
-          "visits": 27,
-          "rpv": 1605.75,
-          "rebooked_rate": 0.7,
-          "completed_rate": 0.3803,
-          "clinics_days_worked": 12,
-          "rpd": 3612.93
-        },
-        {
           "employee": "Alixandra Breedwell",
           "brand": "Esthetics Center",
           "region": "West Coast",
@@ -8008,7 +7966,7 @@
         },
         {
           "employee": "Lindsay Luciano",
-          "brand": "Inbloom Health and Medispa, RN Esthetics",
+          "brand": "RN Esthetics",
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
@@ -9605,20 +9563,6 @@
           "rpd": 2241.58
         },
         {
-          "employee": "Megan Vincze",
-          "brand": "Esthetics Center",
-          "region": "West Coast",
-          "department": "Surgery, Injectors",
-          "partner": false,
-          "revenue": 421055,
-          "visits": 219,
-          "rpv": 1922.63,
-          "rebooked_rate": 0.7579,
-          "completed_rate": 0.7032,
-          "clinics_days_worked": 92,
-          "rpd": 4576.68
-        },
-        {
           "employee": "Alixandra Breedwell",
           "brand": "Esthetics Center",
           "region": "West Coast",
@@ -10096,7 +10040,7 @@
         },
         {
           "employee": "Lindsay Luciano",
-          "brand": "Inbloom Health and Medispa, RN Esthetics",
+          "brand": "RN Esthetics",
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
@@ -16093,6 +16037,20 @@
           "rpd": 3822.15
         },
         {
+          "employee": "Megan Vincze",
+          "brand": "Esthetics Center",
+          "region": "West Coast",
+          "department": "Surgery",
+          "partner": false,
+          "revenue": 207040.46,
+          "visits": 92,
+          "rpv": 2250.44,
+          "rebooked_rate": 0.8,
+          "completed_rate": 0.7712,
+          "clinics_days_worked": 37,
+          "rpd": 5595.69
+        },
+        {
           "employee": "Andrea Lord",
           "brand": "Williams Center",
           "region": "East Coast",
@@ -16233,6 +16191,20 @@
           "completed_rate": 0.7361,
           "clinics_days_worked": 53,
           "rpd": 5346
+        },
+        {
+          "employee": "Megan Vincze",
+          "brand": "Esthetics Center",
+          "region": "West Coast",
+          "department": "Surgery",
+          "partner": false,
+          "revenue": 170659.42,
+          "visits": 100,
+          "rpv": 1706.59,
+          "rebooked_rate": 0.7347,
+          "completed_rate": 0.7279,
+          "clinics_days_worked": 43,
+          "rpd": 3968.82
         },
         {
           "employee": "Andrea Lord",
@@ -16377,6 +16349,20 @@
           "rpd": 3683.13
         },
         {
+          "employee": "Megan Vincze",
+          "brand": "Esthetics Center",
+          "region": "West Coast",
+          "department": "Surgery",
+          "partner": false,
+          "revenue": 43355.13,
+          "visits": 27,
+          "rpv": 1605.75,
+          "rebooked_rate": 0.7,
+          "completed_rate": 0.3803,
+          "clinics_days_worked": 12,
+          "rpd": 3612.93
+        },
+        {
           "employee": "Andrea Lord",
           "brand": "Williams Center",
           "region": "East Coast",
@@ -16517,6 +16503,20 @@
           "completed_rate": 0.665,
           "clinics_days_worked": 119,
           "rpd": 4483.31
+        },
+        {
+          "employee": "Megan Vincze",
+          "brand": "Esthetics Center",
+          "region": "West Coast",
+          "department": "Surgery",
+          "partner": false,
+          "revenue": 421055,
+          "visits": 219,
+          "rpv": 1922.63,
+          "rebooked_rate": 0.7579,
+          "completed_rate": 0.7032,
+          "clinics_days_worked": 92,
+          "rpd": 4576.68
         },
         {
           "employee": "Andrea Lord",
