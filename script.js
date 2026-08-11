@@ -1,5 +1,5 @@
 /* Alpha Leaderboard dashboard
- * Views: "brands" (Partner Brand) and "providers" (Injectors / Esty-Body-Wellness / Surgery).
+ * Views: "brands" (Partner Brand) and "providers" (Injectors / Device Operators / Estheticians-Facialists / Surgery).
  * Segments: MTD, Q1, Q2, Q3, YTD. Reads ./data.json. See SETUP-GUIDE.md.
  */
 const state = {
@@ -143,31 +143,34 @@ function buildTicker() {
   const d = state.data;
   const b = (d.brands && d.brands.MTD) || [];
   const g = d.provider_groups || {};
-  const inj = ((g["Injectors"] || {}).MTD || []).filter((r) => r.revenue > 0);
-  const esty = ((g["Esty / Body / Wellness"] || {}).MTD || []).filter((r) => r.revenue > 0);
-  const surg = ((g["Surgery"] || {}).MTD || []).filter((r) => r.revenue > 0);
+  const groupNames = Object.keys(g);
+  const groupRows = {};
+  groupNames.forEach((gn) => { groupRows[gn] = ((g[gn] || {}).MTD || []).filter((r) => r.revenue > 0); });
   const brands = b.filter((r) => r.revenue > 0);
   const brandsM = brands.filter((r) => !isRevenueOnly(r.brand));
-  const allProv = inj.concat(esty, surg).filter((r) => !isRevenueOnly(r.brand));
+  let allProv = [];
+  groupNames.forEach((gn) => { allProv = allProv.concat(groupRows[gn]); });
+  allProv = allProv.filter((r) => !isRevenueOnly(r.brand));
 
   const top = (rows, key, n) => rows.filter((r) => r[key] != null && r[key] > 0)
     .sort((a, x) => x[key] - a[key]).slice(0, n || 10);
 
-  const cats = [
-    { t: "Top Injectors", rows: top(inj, "revenue"), key: "revenue", fmt: fmtMoneyK, nk: "employee" },
-    { t: "Top Esty / Body / Wellness", rows: top(esty, "revenue"), key: "revenue", fmt: fmtMoneyK, nk: "employee" },
-    { t: "Top Surgery", rows: top(surg, "revenue"), key: "revenue", fmt: fmtMoneyK, nk: "employee" },
-    { t: "Highest RPD · Providers", rows: top(allProv, "rpd"), key: "rpd", fmt: fmtMoney, nk: "employee" },
-    { t: "Most Visits · Providers", rows: top(allProv, "visits"), key: "visits", fmt: fmtNum, nk: "employee" },
-    { t: "Best Rebook Rate · Providers", rows: top(allProv, "rebooked_rate"), key: "rebooked_rate", fmt: fmtPct, nk: "employee" },
-    { t: "Best Completed Rate · Providers", rows: top(allProv, "completed_rate"), key: "completed_rate", fmt: fmtPct, nk: "employee" },
+  const cats = [];
+  groupNames.forEach((gn) => {
+    cats.push({ t: "Top " + gn, rows: top(groupRows[gn], "revenue"), key: "revenue", fmt: fmtMoneyK, nk: "employee" });
+  });
+  cats.push(
+    { t: "Highest RPD \u00b7 Providers", rows: top(allProv, "rpd"), key: "rpd", fmt: fmtMoney, nk: "employee" },
+    { t: "Most Visits \u00b7 Providers", rows: top(allProv, "visits"), key: "visits", fmt: fmtNum, nk: "employee" },
+    { t: "Best Rebook Rate \u00b7 Providers", rows: top(allProv, "rebooked_rate"), key: "rebooked_rate", fmt: fmtPct, nk: "employee" },
+    { t: "Best Completed Rate \u00b7 Providers", rows: top(allProv, "completed_rate"), key: "completed_rate", fmt: fmtPct, nk: "employee" },
     { t: "Top Partner Brands", rows: top(brands, "revenue"), key: "revenue", fmt: fmtMoneyK, nk: "brand" },
-    { t: "Highest RPV · Partner Brands", rows: top(brandsM, "rpv"), key: "rpv", fmt: fmtMoney, nk: "brand" },
-    { t: "Best % of Budget · Partner Brands", rows: top(brandsM, "pct_budget"), key: "pct_budget", fmt: fmtPct, nk: "brand" },
-    { t: "Most Visits · Partner Brands", rows: top(brandsM, "visits"), key: "visits", fmt: fmtNum, nk: "brand" },
-    { t: "Best Rebook Rate · Partner Brands", rows: top(brandsM, "rebooked_rate"), key: "rebooked_rate", fmt: fmtPct, nk: "brand" },
-    { t: "Best Completed Rate · Partner Brands", rows: top(brandsM, "completed_rate"), key: "completed_rate", fmt: fmtPct, nk: "brand" },
-  ];
+    { t: "Highest RPV \u00b7 Partner Brands", rows: top(brandsM, "rpv"), key: "rpv", fmt: fmtMoney, nk: "brand" },
+    { t: "Best % of Budget \u00b7 Partner Brands", rows: top(brandsM, "pct_budget"), key: "pct_budget", fmt: fmtPct, nk: "brand" },
+    { t: "Most Visits \u00b7 Partner Brands", rows: top(brandsM, "visits"), key: "visits", fmt: fmtNum, nk: "brand" },
+    { t: "Best Rebook Rate \u00b7 Partner Brands", rows: top(brandsM, "rebooked_rate"), key: "rebooked_rate", fmt: fmtPct, nk: "brand" },
+    { t: "Best Completed Rate \u00b7 Partner Brands", rows: top(brandsM, "completed_rate"), key: "completed_rate", fmt: fmtPct, nk: "brand" }
+  );
 
   let html = "", count = 0;
   cats.forEach((c) => {
