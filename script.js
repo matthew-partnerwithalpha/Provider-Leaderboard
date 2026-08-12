@@ -137,6 +137,7 @@ function formatTimestamp(iso) {
   return dt.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
 }
 function segLabel(seg) { return (state.data.segment_labels && state.data.segment_labels[seg]) || seg; }
+function groupDisplay(g) { return g === "Injectors" ? "Injectors - Body" : g; }
 
 /* ===== Ticker (MTD highlight reel) ===== */
 function buildTicker() {
@@ -157,7 +158,7 @@ function buildTicker() {
 
   const cats = [];
   groupNames.forEach((gn) => {
-    cats.push({ t: "Top " + gn, rows: top(groupRows[gn], "revenue"), key: "revenue", fmt: fmtMoneyK, nk: "employee" });
+    cats.push({ t: "Top " + groupDisplay(gn), rows: top(groupRows[gn], "revenue"), key: "revenue", fmt: fmtMoneyK, nk: "employee" });
   });
   cats.push(
     { t: "Highest RPD \u00b7 Providers", rows: top(allProv, "rpd"), key: "rpd", fmt: fmtMoney, nk: "employee" },
@@ -256,11 +257,11 @@ function syncChrome() {
     subtabs.hidden = false; partnerWrap.hidden = false; summary.hidden = false;
     const groups = Object.keys(state.data.provider_groups || {});
     subtabs.innerHTML = groups
-      .map((gp) => `<button class="subtab ${gp === state.providerType ? "active" : ""}" data-group="${escapeAttr(gp)}">${escapeHtml(gp)}</button>`)
+      .map((gp) => `<button class="subtab ${gp === state.providerType ? "active" : ""}" data-group="${escapeAttr(gp)}">${escapeHtml(groupDisplay(gp))}</button>`)
       .join("");
-    document.getElementById("chart-title").textContent = state.providerType + " — Revenue";
+    document.getElementById("chart-title").textContent = groupDisplay(state.providerType) + " — Revenue";
     document.getElementById("chart-hint").textContent = "Top 15 by revenue · " + segLabel(state.segment);
-    document.getElementById("table-title").textContent = state.providerType + " Leaderboard — " + segLabel(state.segment);
+    document.getElementById("table-title").textContent = groupDisplay(state.providerType) + " Leaderboard — " + segLabel(state.segment);
     document.getElementById("search").placeholder = "Search a person or brand...";
   } else {
     subtabs.hidden = true; partnerWrap.hidden = true; summary.hidden = true;
@@ -295,7 +296,7 @@ function renderSummary(rows) {
     const ro = isRevenueOnly(r.brand);
     const sub = ro ? "" : `${fmtNum(r.visits)} visits · ${fmtMoney(r.rpd)} RPD`;
     return `<div class="podium ${i === 0 ? "rank1" : ""}">
-      <div class="podium-rank">${ranks[i]} · ${escapeHtml(state.providerType)}</div>
+      <div class="podium-rank">${ranks[i]} · ${escapeHtml(groupDisplay(state.providerType))}</div>
       <div class="podium-name">${escapeHtml(r.employee)}</div>
       <div class="podium-brand">${escapeHtml(r.brand || "")}</div>
       <div class="podium-rev">${fmtMoney(r.revenue)}</div>
