@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:59:08.023Z",
+  "generated_at": "2026-09-14T14:00:27.736Z",
   "segments": [
     "MTD",
     "Q1",
@@ -176,6 +176,19 @@
         "pct_budget": null
       },
       {
+        "brand": "LexRx",
+        "region": "East Coast",
+        "revenue": 100935.5,
+        "visits": 0,
+        "rpv": null,
+        "rebooked_rate": null,
+        "completed_rate": null,
+        "revenue_lm": null,
+        "revenue_sply": null,
+        "budget": null,
+        "pct_budget": null
+      },
+      {
         "brand": "Blossom",
         "region": "East Coast",
         "revenue": 91963.01,
@@ -189,6 +202,19 @@
         "pct_budget": 0.4709
       },
       {
+        "brand": "Bair",
+        "region": "West Coast",
+        "revenue": 75293.76,
+        "visits": 0,
+        "rpv": null,
+        "rebooked_rate": null,
+        "completed_rate": null,
+        "revenue_lm": null,
+        "revenue_sply": null,
+        "budget": null,
+        "pct_budget": null
+      },
+      {
         "brand": "Flawless",
         "region": "West Coast",
         "revenue": 74553.88,
@@ -200,32 +226,6 @@
         "revenue_sply": 199181.93,
         "budget": 214726.01,
         "pct_budget": 0.3472
-      },
-      {
-        "brand": "Bair",
-        "region": "West Coast",
-        "revenue": 53964.91,
-        "visits": 0,
-        "rpv": null,
-        "rebooked_rate": null,
-        "completed_rate": null,
-        "revenue_lm": null,
-        "revenue_sply": null,
-        "budget": null,
-        "pct_budget": null
-      },
-      {
-        "brand": "LexRx",
-        "region": "East Coast",
-        "revenue": 52630.5,
-        "visits": 0,
-        "rpv": null,
-        "rebooked_rate": null,
-        "completed_rate": null,
-        "revenue_lm": null,
-        "revenue_sply": null,
-        "budget": null,
-        "pct_budget": null
       },
       {
         "brand": "Inbloom Health and Medispa",
@@ -663,7 +663,7 @@
       {
         "brand": "LexRx",
         "region": "East Coast",
-        "revenue": 557482.5,
+        "revenue": 605787.5,
         "visits": 0,
         "rpv": null,
         "rebooked_rate": null,
@@ -690,7 +690,7 @@
       {
         "brand": "Bair",
         "region": "West Coast",
-        "revenue": 420974.09,
+        "revenue": 442302.94,
         "visits": 0,
         "rpv": null,
         "rebooked_rate": null,
@@ -818,7 +818,7 @@
       {
         "brand": "LexRx",
         "region": "East Coast",
-        "revenue": 1953027.83,
+        "revenue": 2001332.83,
         "visits": 0,
         "rpv": null,
         "rebooked_rate": null,
@@ -845,7 +845,7 @@
       {
         "brand": "Bair",
         "region": "West Coast",
-        "revenue": 1622508.51,
+        "revenue": 1643837.36,
         "visits": 0,
         "rpv": null,
         "rebooked_rate": null,
@@ -1513,6 +1513,21 @@
           "revenue_lm": 82742.48
         },
         {
+          "employee": "Gillian Pfaff",
+          "brand": "LexRx",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 29680,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": 0,
+          "completed_rate": 0,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
+        },
+        {
           "employee": "Elizabeth Callahan",
           "brand": "Dontage",
           "region": "East Coast",
@@ -1648,6 +1663,21 @@
           "revenue_lm": 83248.17
         },
         {
+          "employee": "Alexa Costa",
+          "brand": "LexRx",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": true,
+          "revenue": 25215,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
+        },
+        {
           "employee": "Maria Campagnone",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -1676,6 +1706,21 @@
           "clinics_days_worked": 6,
           "rpd": 4075.99,
           "revenue_lm": 53327.75
+        },
+        {
+          "employee": "Marielle Petrilli",
+          "brand": "LexRx",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 23705,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": 0,
+          "completed_rate": 0,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
         },
         {
           "employee": "Allison Mcaniff",
@@ -1721,21 +1766,6 @@
           "clinics_days_worked": 4,
           "rpd": 5783.54,
           "revenue_lm": 46337.42
-        },
-        {
-          "employee": "Gillian Pfaff",
-          "brand": "LexRx",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 22395,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": 0,
-          "completed_rate": 0,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
         },
         {
           "employee": "Lauren Biscotti",
@@ -1873,6 +1903,21 @@
           "revenue_lm": 40570.4
         },
         {
+          "employee": "Meredith Switzer",
+          "brand": "Bair",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 18231.7,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": 0,
+          "completed_rate": 0,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
+        },
+        {
           "employee": "Brittany Gabrielli",
           "brand": "Mint & Needle",
           "region": "East Coast",
@@ -1918,6 +1963,21 @@
           "revenue_lm": 45219.7
         },
         {
+          "employee": "Felecia Barela",
+          "brand": "Bair",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 15270,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": 0,
+          "completed_rate": 0,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
+        },
+        {
           "employee": "Jason Rivera-Muscari",
           "brand": "Flawless",
           "region": "West Coast",
@@ -1948,6 +2008,21 @@
           "revenue_lm": 100
         },
         {
+          "employee": "Dr. Bair",
+          "brand": "Bair",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": true,
+          "revenue": 14852.75,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
+        },
+        {
           "employee": "Amanda Dubil",
           "brand": "Esthetics Center",
           "region": "West Coast",
@@ -1976,21 +2051,6 @@
           "clinics_days_worked": 2,
           "rpd": 7143.93,
           "revenue_lm": 28282.05
-        },
-        {
-          "employee": "Marielle Petrilli",
-          "brand": "LexRx",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 13975,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": 0,
-          "completed_rate": 0,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
         },
         {
           "employee": "Shannon Bollow",
@@ -2053,21 +2113,6 @@
           "revenue_lm": 36514.83
         },
         {
-          "employee": "Meredith Switzer",
-          "brand": "Bair",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 12039.6,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": 0,
-          "completed_rate": 0,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
-        },
-        {
           "employee": "Hana Cayton",
           "brand": "CAMI Aesthetics",
           "region": "East Coast",
@@ -2128,27 +2173,12 @@
           "revenue_lm": 41523.29
         },
         {
-          "employee": "Dr. Bair",
-          "brand": "Bair",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": true,
-          "revenue": 10372.25,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
-        },
-        {
-          "employee": "Felecia Barela",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Danielle O'Loughlin",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 9962.95,
+          "revenue": 10213.5,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": 0,
@@ -2358,7 +2388,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 4950,
+          "revenue": 4990,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": 0,
@@ -2381,21 +2411,6 @@
           "clinics_days_worked": 5,
           "rpd": 878.81,
           "revenue_lm": 12033.59
-        },
-        {
-          "employee": "Alexa Costa",
-          "brand": "LexRx",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": true,
-          "revenue": 3850,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
         },
         {
           "employee": "Ashley Fennell",
@@ -2456,21 +2471,6 @@
           "clinics_days_worked": 2,
           "rpd": 1527.5,
           "revenue_lm": 0
-        },
-        {
-          "employee": "Danielle O'Loughlin",
-          "brand": "LexRx",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 2833.5,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": 0,
-          "completed_rate": 0,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
         },
         {
           "employee": "Lindsay Luciano",
@@ -2548,6 +2548,21 @@
           "revenue_lm": 2765
         },
         {
+          "employee": "Ashley Denmark",
+          "brand": "LexRx",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 2025,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
+        },
+        {
           "employee": "Gabrielle Gigliotti",
           "brand": "LexRx",
           "region": "East Coast",
@@ -2593,21 +2608,6 @@
           "revenue_lm": null
         },
         {
-          "employee": "Ashley Denmark",
-          "brand": "LexRx",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 1305,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
-        },
-        {
           "employee": "Desiree Surguy",
           "brand": "Mint & Needle",
           "region": "East Coast",
@@ -2621,6 +2621,21 @@
           "clinics_days_worked": 3,
           "rpd": 425.42,
           "revenue_lm": 8656
+        },
+        {
+          "employee": "Sophie Civitarese",
+          "brand": "LexRx",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 650,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
         },
         {
           "employee": "Marie Egge",
@@ -2831,21 +2846,6 @@
           "clinics_days_worked": 0,
           "rpd": null,
           "revenue_lm": 59965.25
-        },
-        {
-          "employee": "Sophie Civitarese",
-          "brand": "LexRx",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
         },
         {
           "employee": "Maggie Williams",
@@ -3719,12 +3719,12 @@
           "rpd": 5137.58
         },
         {
-          "employee": "Felecia Barela",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Alexa Costa",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
-          "partner": false,
-          "revenue": 138641.75,
+          "partner": true,
+          "revenue": 115340,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -3733,12 +3733,12 @@
           "rpd": null
         },
         {
-          "employee": "Alexa Costa",
-          "brand": "LexRx",
-          "region": "East Coast",
+          "employee": "Felecia Barela",
+          "brand": "Bair",
+          "region": "West Coast",
           "department": "Injectors",
-          "partner": true,
-          "revenue": 115340,
+          "partner": false,
+          "revenue": 138641.75,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -3775,20 +3775,6 @@
           "rpd": 3201.22
         },
         {
-          "employee": "Vanessa Gonzalez",
-          "brand": "Anne Therese Aesthetic Medicine",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 111499.99,
-          "visits": 460,
-          "rpv": 242.39,
-          "rebooked_rate": 0.3406,
-          "completed_rate": 0.855,
-          "clinics_days_worked": 63,
-          "rpd": 1769.84
-        },
-        {
           "employee": "Meredith Switzer",
           "brand": "Bair",
           "region": "West Coast",
@@ -3801,6 +3787,20 @@
           "completed_rate": null,
           "clinics_days_worked": null,
           "rpd": null
+        },
+        {
+          "employee": "Vanessa Gonzalez",
+          "brand": "Anne Therese Aesthetic Medicine",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 111499.99,
+          "visits": 460,
+          "rpv": 242.39,
+          "rebooked_rate": 0.3406,
+          "completed_rate": 0.855,
+          "clinics_days_worked": 63,
+          "rpd": 1769.84
         },
         {
           "employee": "Marsha Montague",
@@ -3929,12 +3929,12 @@
           "rpd": 2651.1
         },
         {
-          "employee": "Maria Mantelli",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Danielle O'Loughlin",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 97186.25,
+          "revenue": 103160.5,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -3943,12 +3943,12 @@
           "rpd": null
         },
         {
-          "employee": "Danielle O'Loughlin",
-          "brand": "LexRx",
-          "region": "East Coast",
+          "employee": "Maria Mantelli",
+          "brand": "Bair",
+          "region": "West Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 103160.5,
+          "revenue": 97186.25,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -4461,20 +4461,6 @@
           "rpd": null
         },
         {
-          "employee": "Johanna Weninger",
-          "brand": "Esthetics Center",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 13850.2,
-          "visits": 32,
-          "rpv": 432.82,
-          "rebooked_rate": 0.4194,
-          "completed_rate": 0.5333,
-          "clinics_days_worked": 9,
-          "rpd": 1538.91
-        },
-        {
           "employee": "Sophie Civitarese",
           "brand": "LexRx",
           "region": "East Coast",
@@ -4487,6 +4473,20 @@
           "completed_rate": null,
           "clinics_days_worked": null,
           "rpd": null
+        },
+        {
+          "employee": "Johanna Weninger",
+          "brand": "Esthetics Center",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 13850.2,
+          "visits": 32,
+          "rpv": 432.82,
+          "rebooked_rate": 0.4194,
+          "completed_rate": 0.5333,
+          "clinics_days_worked": 9,
+          "rpd": 1538.91
         },
         {
           "employee": "Kayla Paris",
@@ -5835,12 +5835,12 @@
           "rpd": 6094.03
         },
         {
-          "employee": "Felecia Barela",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Alexa Costa",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
-          "partner": false,
-          "revenue": 149929.75,
+          "partner": true,
+          "revenue": 170615.25,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -5849,12 +5849,12 @@
           "rpd": null
         },
         {
-          "employee": "Alexa Costa",
-          "brand": "LexRx",
-          "region": "East Coast",
+          "employee": "Felecia Barela",
+          "brand": "Bair",
+          "region": "West Coast",
           "department": "Injectors",
-          "partner": true,
-          "revenue": 170615.25,
+          "partner": false,
+          "revenue": 149929.75,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -5891,20 +5891,6 @@
           "rpd": 2906.53
         },
         {
-          "employee": "Vanessa Gonzalez",
-          "brand": "Anne Therese Aesthetic Medicine",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 136473.51,
-          "visits": 396,
-          "rpv": 344.63,
-          "rebooked_rate": 0.3402,
-          "completed_rate": 0.8053,
-          "clinics_days_worked": 67,
-          "rpd": 2036.92
-        },
-        {
           "employee": "Meredith Switzer",
           "brand": "Bair",
           "region": "West Coast",
@@ -5917,6 +5903,20 @@
           "completed_rate": null,
           "clinics_days_worked": null,
           "rpd": null
+        },
+        {
+          "employee": "Vanessa Gonzalez",
+          "brand": "Anne Therese Aesthetic Medicine",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 136473.51,
+          "visits": 396,
+          "rpv": 344.63,
+          "rebooked_rate": 0.3402,
+          "completed_rate": 0.8053,
+          "clinics_days_worked": 67,
+          "rpd": 2036.92
         },
         {
           "employee": "Marsha Montague",
@@ -6045,12 +6045,12 @@
           "rpd": 1952.8
         },
         {
-          "employee": "Maria Mantelli",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Danielle O'Loughlin",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 94888,
+          "revenue": 100662.25,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -6059,12 +6059,12 @@
           "rpd": null
         },
         {
-          "employee": "Danielle O'Loughlin",
-          "brand": "LexRx",
-          "region": "East Coast",
+          "employee": "Maria Mantelli",
+          "brand": "Bair",
+          "region": "West Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 100662.25,
+          "revenue": 94888,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -6577,20 +6577,6 @@
           "rpd": null
         },
         {
-          "employee": "Johanna Weninger",
-          "brand": "Esthetics Center",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": 0,
-          "rpd": null
-        },
-        {
           "employee": "Sophie Civitarese",
           "brand": "LexRx",
           "region": "East Coast",
@@ -6602,6 +6588,20 @@
           "rebooked_rate": null,
           "completed_rate": null,
           "clinics_days_worked": null,
+          "rpd": null
+        },
+        {
+          "employee": "Johanna Weninger",
+          "brand": "Esthetics Center",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 0,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": 0,
           "rpd": null
         },
         {
@@ -7844,7 +7844,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 154775,
+          "revenue": 162060,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -7886,7 +7886,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 134243,
+          "revenue": 143973,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -7951,12 +7951,12 @@
           "rpd": 5771.41
         },
         {
-          "employee": "Felecia Barela",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Alexa Costa",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
-          "partner": false,
-          "revenue": 96271.32,
+          "partner": true,
+          "revenue": 112544,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -7965,12 +7965,12 @@
           "rpd": null
         },
         {
-          "employee": "Alexa Costa",
-          "brand": "LexRx",
-          "region": "East Coast",
+          "employee": "Felecia Barela",
+          "brand": "Bair",
+          "region": "West Coast",
           "department": "Injectors",
-          "partner": true,
-          "revenue": 91179,
+          "partner": false,
+          "revenue": 101578.37,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -8007,6 +8007,20 @@
           "rpd": 2352.35
         },
         {
+          "employee": "Meredith Switzer",
+          "brand": "Bair",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 93861.92,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null
+        },
+        {
           "employee": "Vanessa Gonzalez",
           "brand": "Anne Therese Aesthetic Medicine",
           "region": "East Coast",
@@ -8019,20 +8033,6 @@
           "completed_rate": 0.7209,
           "clinics_days_worked": 50,
           "rpd": 2185.77
-        },
-        {
-          "employee": "Meredith Switzer",
-          "brand": "Bair",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 87669.82,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
-          "rpd": null
         },
         {
           "employee": "Marsha Montague",
@@ -8082,7 +8082,7 @@
           "region": "West Coast",
           "department": "Injectors",
           "partner": true,
-          "revenue": 85186.9,
+          "revenue": 89667.4,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -8161,12 +8161,12 @@
           "rpd": 1508.49
         },
         {
-          "employee": "Maria Mantelli",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Danielle O'Loughlin",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 63448.2,
+          "revenue": 56775,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -8175,12 +8175,12 @@
           "rpd": null
         },
         {
-          "employee": "Danielle O'Loughlin",
-          "brand": "LexRx",
-          "region": "East Coast",
+          "employee": "Maria Mantelli",
+          "brand": "Bair",
+          "region": "West Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 49395,
+          "revenue": 63448.2,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -8334,7 +8334,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 49576,
+          "revenue": 49616,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -8544,7 +8544,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 16710.25,
+          "revenue": 17430.25,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -8693,6 +8693,20 @@
           "rpd": 15785.62
         },
         {
+          "employee": "Sophie Civitarese",
+          "brand": "LexRx",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 650,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null
+        },
+        {
           "employee": "Johanna Weninger",
           "brand": "Esthetics Center",
           "region": "West Coast",
@@ -8704,20 +8718,6 @@
           "rebooked_rate": null,
           "completed_rate": null,
           "clinics_days_worked": 0,
-          "rpd": null
-        },
-        {
-          "employee": "Sophie Civitarese",
-          "brand": "LexRx",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
           "rpd": null
         },
         {
@@ -9960,7 +9960,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 474443.5,
+          "revenue": 481728.5,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10002,7 +10002,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 445672.5,
+          "revenue": 455402.5,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10067,12 +10067,12 @@
           "rpd": 5666.37
         },
         {
-          "employee": "Felecia Barela",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Alexa Costa",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
-          "partner": false,
-          "revenue": 384842.82,
+          "partner": true,
+          "revenue": 398499.25,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10081,12 +10081,12 @@
           "rpd": null
         },
         {
-          "employee": "Alexa Costa",
-          "brand": "LexRx",
-          "region": "East Coast",
+          "employee": "Felecia Barela",
+          "brand": "Bair",
+          "region": "West Coast",
           "department": "Injectors",
-          "partner": true,
-          "revenue": 377134.25,
+          "partner": false,
+          "revenue": 390149.87,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10123,6 +10123,20 @@
           "rpd": 2840.79
         },
         {
+          "employee": "Meredith Switzer",
+          "brand": "Bair",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 363378.17,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null
+        },
+        {
           "employee": "Vanessa Gonzalez",
           "brand": "Anne Therese Aesthetic Medicine",
           "region": "East Coast",
@@ -10135,20 +10149,6 @@
           "completed_rate": 0.8034,
           "clinics_days_worked": 180,
           "rpd": 1984.79
-        },
-        {
-          "employee": "Meredith Switzer",
-          "brand": "Bair",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 357186.07,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
-          "rpd": null
         },
         {
           "employee": "Marsha Montague",
@@ -10198,7 +10198,7 @@
           "region": "West Coast",
           "department": "Injectors",
           "partner": true,
-          "revenue": 325243.65,
+          "revenue": 329724.15,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10277,12 +10277,12 @@
           "rpd": 2044.07
         },
         {
-          "employee": "Maria Mantelli",
-          "brand": "Bair",
-          "region": "West Coast",
+          "employee": "Danielle O'Loughlin",
+          "brand": "LexRx",
+          "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 255522.45,
+          "revenue": 260597.75,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10291,12 +10291,12 @@
           "rpd": null
         },
         {
-          "employee": "Danielle O'Loughlin",
-          "brand": "LexRx",
-          "region": "East Coast",
+          "employee": "Maria Mantelli",
+          "brand": "Bair",
+          "region": "West Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 253217.75,
+          "revenue": 255522.45,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10450,7 +10450,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 171866,
+          "revenue": 171906,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10660,7 +10660,7 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 60285.5,
+          "revenue": 61005.5,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -10809,6 +10809,20 @@
           "rpd": 15785.62
         },
         {
+          "employee": "Sophie Civitarese",
+          "brand": "LexRx",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 14245,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null
+        },
+        {
           "employee": "Johanna Weninger",
           "brand": "Esthetics Center",
           "region": "West Coast",
@@ -10821,20 +10835,6 @@
           "completed_rate": 0.5333,
           "clinics_days_worked": 9,
           "rpd": 1538.91
-        },
-        {
-          "employee": "Sophie Civitarese",
-          "brand": "LexRx",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 13595,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
-          "rpd": null
         },
         {
           "employee": "Kayla Paris",
@@ -14258,6 +14258,21 @@
           "revenue_lm": 14753.05
         },
         {
+          "employee": "Sierra Pacheco",
+          "brand": "Bair",
+          "region": "West Coast",
+          "department": "Estheticians - Facialists",
+          "partner": false,
+          "revenue": 6956.65,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": 0,
+          "completed_rate": 0,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
+        },
+        {
           "employee": "Olivia Duncan",
           "brand": "Prive",
           "region": "East Coast",
@@ -14286,6 +14301,21 @@
           "clinics_days_worked": 8,
           "rpd": 817.14,
           "revenue_lm": 14054.75
+        },
+        {
+          "employee": "Janelle Romero-Otero",
+          "brand": "Bair",
+          "region": "West Coast",
+          "department": "Estheticians - Facialists",
+          "partner": false,
+          "revenue": 6430.8,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": null,
+          "completed_rate": null,
+          "clinics_days_worked": null,
+          "rpd": null,
+          "revenue_lm": null
         },
         {
           "employee": "Adriana Bolduc",
@@ -14333,21 +14363,6 @@
           "revenue_lm": 14386.4
         },
         {
-          "employee": "Janelle Romero-Otero",
-          "brand": "Bair",
-          "region": "West Coast",
-          "department": "Estheticians - Facialists",
-          "partner": false,
-          "revenue": 4794,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": null,
-          "completed_rate": null,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
-        },
-        {
           "employee": "Hannah Taylor",
           "brand": "CAMI Aesthetics",
           "region": "East Coast",
@@ -14391,21 +14406,6 @@
           "clinics_days_worked": 5,
           "rpd": 824.17,
           "revenue_lm": 3429
-        },
-        {
-          "employee": "Sierra Pacheco",
-          "brand": "Bair",
-          "region": "West Coast",
-          "department": "Estheticians - Facialists",
-          "partner": false,
-          "revenue": 3275.9,
-          "visits": 0,
-          "rpv": null,
-          "rebooked_rate": 0,
-          "completed_rate": 0,
-          "clinics_days_worked": null,
-          "rpd": null,
-          "revenue_lm": null
         },
         {
           "employee": "Shazia Wells",
@@ -16227,7 +16227,7 @@
           "region": "West Coast",
           "department": "Estheticians - Facialists",
           "partner": false,
-          "revenue": 27866.4,
+          "revenue": 31547.15,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -16283,7 +16283,7 @@
           "region": "West Coast",
           "department": "Estheticians - Facialists",
           "partner": false,
-          "revenue": 22946.5,
+          "revenue": 24583.3,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -16901,7 +16901,7 @@
           "region": "West Coast",
           "department": "Estheticians - Facialists",
           "partner": false,
-          "revenue": 129969.39,
+          "revenue": 133650.14,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
@@ -16957,7 +16957,7 @@
           "region": "West Coast",
           "department": "Estheticians - Facialists",
           "partner": false,
-          "revenue": 101929.23,
+          "revenue": 103566.03,
           "visits": 0,
           "rpv": null,
           "rebooked_rate": null,
