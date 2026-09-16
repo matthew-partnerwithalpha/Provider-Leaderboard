@@ -136,7 +136,10 @@ function formatTimestamp(iso) {
   if (isNaN(dt)) return iso;
   return dt.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
 }
-function segLabel(seg) { return (state.data.segment_labels && state.data.segment_labels[seg]) || seg; }
+function segLabel(seg) {
+  if (seg === "L7D") return "Last Week (M - Su)";
+  return (state.data.segment_labels && state.data.segment_labels[seg]) || seg;
+}
 function groupDisplay(g) { return g === "Injectors" ? "Injectors - Body" : g; }
 
 /* ===== Ticker (MTD highlight reel) ===== */
