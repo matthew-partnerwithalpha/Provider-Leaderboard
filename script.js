@@ -12,7 +12,7 @@ function isRevenueOnly(brand) {
   const n = String(brand || "").toLowerCase();
   return n.indexOf("lexrx") !== -1 || n.indexOf("lex rx") !== -1 || n.indexOf("bair") !== -1;
 }
-const DASH_KEYS = ["visits", "rpv", "rpd", "clinics_days_worked", "rebooked_rate", "completed_rate"];
+const DASH_KEYS = ["visits", "rpv", "rpd", "days_worked", "rebooked_rate", "completed_rate"];
 
 // Partner-brand abbreviations (for the ticker)
 const BRAND_ABBR = {
@@ -73,7 +73,7 @@ const PROVIDER_COLS_MTD = [
   { key: "visits", label: "Visits", cls: "num", sort: true },
   { key: "rpv", label: "RPV", cls: "num", sort: true },
   { key: "rpd", label: "RPD", cls: "num", sort: true },
-  { key: "clinics_days_worked", label: "Clinic Days", cls: "num", sort: true },
+  { key: "days_worked", label: "Days Worked", cls: "num", sort: true },
   { key: "rebooked_rate", label: "Rebooked", cls: "num", sort: true },
   { key: "completed_rate", label: "Completed", cls: "num", sort: true },
   { key: "revenue_lm", label: "Revenue LM", cls: "num", sort: true },
@@ -88,7 +88,7 @@ const PROVIDER_COLS_SEG = [
   { key: "visits", label: "Visits", cls: "num", sort: true },
   { key: "rpv", label: "RPV", cls: "num", sort: true },
   { key: "rpd", label: "RPD", cls: "num", sort: true },
-  { key: "clinics_days_worked", label: "Clinic Days", cls: "num", sort: true },
+  { key: "days_worked", label: "Days Worked", cls: "num", sort: true },
   { key: "rebooked_rate", label: "Rebooked", cls: "num", sort: true },
   { key: "completed_rate", label: "Completed", cls: "num", sort: true },
   { key: "partner", label: "Partner", cls: "num", sort: true },
@@ -404,7 +404,7 @@ function cell(r, c, i) {
     case "revenue_sply": return `<td class="num">${fmtMoney(r.revenue_sply)}</td>`;
     case "rpv": return `<td class="num">${fmtMoney(r.rpv)}</td>`;
     case "rpd": return `<td class="num">${fmtMoney(r.rpd)}</td>`;
-    case "clinics_days_worked": return `<td class="num">${fmtNum(r.clinics_days_worked)}</td>`;
+    case "days_worked": return `<td class="num">${fmtNum(r.days_worked)}</td>`;
     case "visits": return `<td class="num">${fmtNum(r.visits)}</td>`;
     case "pct_budget": return `<td class="num">${fmtPct(r.pct_budget)}</td>`;
     case "rebooked_rate": return `<td class="num">${fmtPct(r.rebooked_rate)}</td>`;
