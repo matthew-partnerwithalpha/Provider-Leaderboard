@@ -462,7 +462,7 @@ document.getElementById("search").addEventListener("input", (e) => { state.searc
 function initGate() {
   const gate = document.getElementById("gate");
   if (!gate) return;
-  const PASS = "keepclimbing";
+  const PASS = "growtogether";
   try { if (sessionStorage.getItem("alpha_unlocked") === "1") { gate.remove(); return; } } catch (e) {}
   const input = document.getElementById("gate-pass");
   const btn = document.getElementById("gate-btn");
