@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T19:17:00.816Z",
+  "generated_at": "2026-09-24T19:18:41.721Z",
   "segments": [
     "MTD",
     "Q1",
@@ -1253,8 +1253,8 @@
           "rpv": 595.45,
           "rebooked_rate": 0.6541,
           "completed_rate": 0.5702,
-          "days_worked": 19,
-          "rpd": 4575.6,
+          "days_worked": 11,
+          "rpd": 7903.31,
           "revenue_lm": 80990.58
         },
         {
@@ -2093,8 +2093,8 @@
           "rpv": 250.56,
           "rebooked_rate": 0.4571,
           "completed_rate": 0.5785,
-          "days_worked": 33,
-          "rpd": 804.82,
+          "days_worked": 9,
+          "rpd": 2951.02,
           "revenue_lm": 40570.4
         },
         {
@@ -3255,8 +3255,8 @@
           "rpv": 566.33,
           "rebooked_rate": 0.5852,
           "completed_rate": 0.6784,
-          "days_worked": 50,
-          "rpd": 4723.22
+          "days_worked": 37,
+          "rpd": 6382.72
         },
         {
           "employee": "Tanya Lawson",
@@ -3843,8 +3843,8 @@
           "rpv": 291.69,
           "rebooked_rate": 0.5364,
           "completed_rate": 0.6112,
-          "days_worked": 150,
-          "rpd": 1108.44
+          "days_worked": 56,
+          "rpd": 2969.03
         },
         {
           "employee": "Brittany Bradshaw",
@@ -3857,8 +3857,8 @@
           "rpv": 337.94,
           "rebooked_rate": 0.5223,
           "completed_rate": 0.6539,
-          "days_worked": 121,
-          "rpd": 969.12
+          "days_worked": 39,
+          "rpd": 3006.76
         },
         {
           "employee": "Dr. Bair",
@@ -5371,8 +5371,8 @@
           "rpv": 560.41,
           "rebooked_rate": 0.6345,
           "completed_rate": 0.7186,
-          "days_worked": 65,
-          "rpd": 4069.45
+          "days_worked": 40,
+          "rpd": 6612.85
         },
         {
           "employee": "Tanya Lawson",
@@ -5567,8 +5567,8 @@
           "rpv": 515.86,
           "rebooked_rate": 0.7371,
           "completed_rate": 0.8274,
-          "days_worked": 42,
-          "rpd": 4532.2
+          "days_worked": 41,
+          "rpd": 4642.74
         },
         {
           "employee": "Maquela Barron",
@@ -5959,8 +5959,8 @@
           "rpv": 301.03,
           "rebooked_rate": 0.5364,
           "completed_rate": 0.6509,
-          "days_worked": 146,
-          "rpd": 1212.39
+          "days_worked": 60,
+          "rpd": 2950.14
         },
         {
           "employee": "Brittany Bradshaw",
@@ -5973,8 +5973,8 @@
           "rpv": 297.5,
           "rebooked_rate": 0.4646,
           "completed_rate": 0.7065,
-          "days_worked": 113,
-          "rpd": 1166.31
+          "days_worked": 39,
+          "rpd": 3379.3
         },
         {
           "employee": "Dr. Bair",
@@ -7487,8 +7487,8 @@
           "rpv": 562.46,
           "rebooked_rate": 0.6195,
           "completed_rate": 0.6535,
-          "days_worked": 68,
-          "rpd": 3821.43
+          "days_worked": 36,
+          "rpd": 7218.25
         },
         {
           "employee": "Tanya Lawson",
@@ -8075,8 +8075,8 @@
           "rpv": 330.01,
           "rebooked_rate": 0.5758,
           "completed_rate": 0.7174,
-          "days_worked": 6,
-          "rpd": 2145.04
+          "days_worked": 3,
+          "rpd": 4290.08
         },
         {
           "employee": "Brittany Bradshaw",
@@ -8089,8 +8089,8 @@
           "rpv": 296.53,
           "rebooked_rate": 0.5129,
           "completed_rate": 0.648,
-          "days_worked": 113,
-          "rpd": 910.59
+          "days_worked": 32,
+          "rpd": 3215.52
         },
         {
           "employee": "Dr. Bair",
@@ -9603,8 +9603,8 @@
           "rpv": 562.94,
           "rebooked_rate": 0.6142,
           "completed_rate": 0.6839,
-          "days_worked": 183,
-          "rpd": 4155.91
+          "days_worked": 113,
+          "rpd": 6730.37
         },
         {
           "employee": "Tanya Lawson",
@@ -9799,8 +9799,8 @@
           "rpv": 517.51,
           "rebooked_rate": 0.733,
           "completed_rate": 0.7828,
-          "days_worked": 139,
-          "rpd": 4225.71
+          "days_worked": 138,
+          "rpd": 4256.33
         },
         {
           "employee": "Maquela Barron",
@@ -10191,8 +10191,8 @@
           "rpv": 297.53,
           "rebooked_rate": 0.5377,
           "completed_rate": 0.6342,
-          "days_worked": 302,
-          "rpd": 1179.29
+          "days_worked": 119,
+          "rpd": 2992.81
         },
         {
           "employee": "Brittany Bradshaw",
@@ -10205,8 +10205,8 @@
           "rpv": 309.55,
           "rebooked_rate": 0.497,
           "completed_rate": 0.6726,
-          "days_worked": 347,
-          "rpd": 1014.27
+          "days_worked": 110,
+          "rpd": 3199.57
         },
         {
           "employee": "Dr. Bair",
@@ -11635,8 +11635,8 @@
           "rpv": 714.72,
           "rebooked_rate": 0.6923,
           "completed_rate": 0.75,
-          "days_worked": 7,
-          "rpd": 4288.31
+          "days_worked": 3,
+          "rpd": 10006.06
         },
         {
           "employee": "Alixandra Breedwell",
@@ -12405,8 +12405,8 @@
           "rpv": 187.79,
           "rebooked_rate": 0.5294,
           "completed_rate": 0.6296,
-          "days_worked": 9,
-          "rpd": 605.11
+          "days_worked": 2,
+          "rpd": 2723
         },
         {
           "employee": "Isabel Garcia-Gallegos",
@@ -18069,8 +18069,8 @@
           "rpv": 319.81,
           "rebooked_rate": 0.6111,
           "completed_rate": 0.5,
-          "days_worked": 21,
-          "rpd": 1005.12,
+          "days_worked": 15,
+          "rpd": 1407.17,
           "revenue_lm": 14415.4
         },
         {
@@ -18291,8 +18291,8 @@
           "rpv": 2250.44,
           "rebooked_rate": 0.75,
           "completed_rate": 0.7712,
-          "days_worked": 37,
-          "rpd": 5595.69
+          "days_worked": 36,
+          "rpd": 5751.12
         },
         {
           "employee": "Stephanie Knox",
@@ -18305,8 +18305,8 @@
           "rpv": 201.56,
           "rebooked_rate": 0.7143,
           "completed_rate": 0.5856,
-          "days_worked": 81,
-          "rpd": 933.14
+          "days_worked": 41,
+          "rpd": 1843.52
         },
         {
           "employee": "Bella Osayande",
@@ -18517,8 +18517,8 @@
           "rpv": 192.35,
           "rebooked_rate": 0.6216,
           "completed_rate": 0.601,
-          "days_worked": 90,
-          "rpd": 647.58
+          "days_worked": 51,
+          "rpd": 1142.8
         },
         {
           "employee": "Bella Osayande",
@@ -18729,8 +18729,8 @@
           "rpv": 253.49,
           "rebooked_rate": 0.6218,
           "completed_rate": 0.6145,
-          "days_worked": 80,
-          "rpd": 776.31
+          "days_worked": 51,
+          "rpd": 1217.74
         },
         {
           "employee": "Bella Osayande",
@@ -18927,8 +18927,8 @@
           "rpv": 1768.43,
           "rebooked_rate": 0.6435,
           "completed_rate": 0.7606,
-          "days_worked": 124,
-          "rpd": 4577.95
+          "days_worked": 123,
+          "rpd": 4615.17
         },
         {
           "employee": "Stephanie Knox",
@@ -18941,8 +18941,8 @@
           "rpv": 212.32,
           "rebooked_rate": 0.6593,
           "completed_rate": 0.5983,
-          "days_worked": 251,
-          "rpd": 780.76
+          "days_worked": 143,
+          "rpd": 1370.43
         },
         {
           "employee": "Bella Osayande",
@@ -19153,8 +19153,8 @@
           "rpv": 252.8,
           "rebooked_rate": 0.6667,
           "completed_rate": 0.6774,
-          "days_worked": 8,
-          "rpd": 790
+          "days_worked": 5,
+          "rpd": 1264
         },
         {
           "employee": "Allison Goldberg",
