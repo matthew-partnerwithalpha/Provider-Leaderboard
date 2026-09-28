@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:50:59.085Z",
+  "generated_at": "2026-09-28T14:06:34.900Z",
   "segments": [
     "MTD",
     "Q1",
@@ -35,15 +35,15 @@
       {
         "brand": "RN Esthetics",
         "region": "East Coast",
-        "revenue": 1107852.67,
-        "visits": 1552,
-        "rpv": 714.74,
-        "rebooked_rate": 0.6562,
-        "completed_rate": 0.7175,
-        "revenue_lm": 1006921.68,
+        "revenue": 1109838.02,
+        "visits": 1554,
+        "rpv": 714.18,
+        "rebooked_rate": 0.6553,
+        "completed_rate": 0.7166,
+        "revenue_lm": 1007129.62,
         "revenue_sply": 992320.73,
         "budget": 984108.15,
-        "pct_budget": 1.1257
+        "pct_budget": 1.1278
       },
       {
         "brand": "Williams Center",
@@ -154,7 +154,7 @@
         "region": "East Coast",
         "revenue": 264825.7,
         "visits": 392,
-        "rpv": 677.3,
+        "rpv": 675.58,
         "rebooked_rate": 0.8243,
         "completed_rate": 0.556,
         "revenue_lm": 293372.07,
@@ -239,19 +239,6 @@
         "revenue_sply": 140256.78,
         "budget": 200750.43,
         "pct_budget": 0.5384
-      },
-      {
-        "brand": "RN Esthetics",
-        "region": "",
-        "revenue": 1985.35,
-        "visits": 2,
-        "rpv": 992.68,
-        "rebooked_rate": 0,
-        "completed_rate": 0,
-        "revenue_lm": 207.94,
-        "revenue_sply": 0,
-        "budget": 984108.15,
-        "pct_budget": 0.002
       }
     ],
     "Q1": [
@@ -266,7 +253,7 @@
       },
       {
         "brand": "RN Esthetics",
-        "region": "",
+        "region": "East Coast",
         "revenue": 3245087.01,
         "visits": 4853,
         "rpv": 668.68,
@@ -421,7 +408,7 @@
       },
       {
         "brand": "RN Esthetics",
-        "region": "",
+        "region": "East Coast",
         "revenue": 3706241.81,
         "visits": 5533,
         "rpv": 669.84,
@@ -576,7 +563,7 @@
       },
       {
         "brand": "RN Esthetics",
-        "region": "",
+        "region": "East Coast",
         "revenue": 3067778.91,
         "visits": 4594,
         "rpv": 667.78,
@@ -731,7 +718,7 @@
       },
       {
         "brand": "RN Esthetics",
-        "region": "",
+        "region": "East Coast",
         "revenue": 10019107.73,
         "visits": 14980,
         "rpv": 668.83,
@@ -878,11 +865,11 @@
       {
         "brand": "RN Esthetics",
         "region": "East Coast",
-        "revenue": 332444.89,
-        "visits": 403,
-        "rpv": 824.93,
-        "rebooked_rate": 0.6915,
-        "completed_rate": 0.7795
+        "revenue": 334105.71,
+        "visits": 404,
+        "rpv": 826.99,
+        "rebooked_rate": 0.6897,
+        "completed_rate": 0.7776
       },
       {
         "brand": "Esthetics Center",
@@ -1009,15 +996,6 @@
         "rpv": 446.87,
         "rebooked_rate": 0.8919,
         "completed_rate": 0.7629
-      },
-      {
-        "brand": "RN Esthetics",
-        "region": "",
-        "revenue": 1660.83,
-        "visits": 1,
-        "rpv": 1660.83,
-        "rebooked_rate": 0,
-        "completed_rate": 0
       }
     ]
   },
