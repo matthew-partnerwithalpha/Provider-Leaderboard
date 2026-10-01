@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:36:39.656Z",
+  "generated_at": "2026-10-01T18:27:35.471Z",
   "segments": [
     "MTD",
     "Q1",
@@ -48,15 +48,15 @@
       {
         "brand": "Williams Center",
         "region": "East Coast",
-        "revenue": 1003089.9,
+        "revenue": 1037890.96,
         "visits": 1431,
-        "rpv": 700.97,
+        "rpv": 725.29,
         "rebooked_rate": 0.504,
         "completed_rate": 0.7081,
-        "revenue_lm": 938581.5,
+        "revenue_lm": 938656.31,
         "revenue_sply": 1041467.34,
         "budget": 1606355.89,
-        "pct_budget": 0.6245
+        "pct_budget": 0.6461
       },
       {
         "brand": "Preva Aesthetics",
@@ -101,10 +101,10 @@
         "brand": "Holden Timeless Beauty",
         "region": "West Coast",
         "revenue": 551410.35,
-        "visits": 710,
-        "rpv": 776.63,
-        "rebooked_rate": 0.6257,
-        "completed_rate": 0.5021,
+        "visits": 755,
+        "rpv": 730.34,
+        "rebooked_rate": 0.6255,
+        "completed_rate": 0.5306,
         "revenue_lm": 536773.82,
         "revenue_sply": 416629.89,
         "budget": 595473.52,
@@ -191,9 +191,9 @@
       {
         "brand": "Refined at Blossom",
         "region": "East Coast",
-        "revenue": 221433.44,
+        "revenue": 225080.44,
         "visits": 334,
-        "rpv": 662.97,
+        "rpv": 673.89,
         "rebooked_rate": 0.6727,
         "completed_rate": 0.6775,
         "revenue_lm": 254330.87,
@@ -573,9 +573,9 @@
       {
         "brand": "Williams Center",
         "region": "East Coast",
-        "revenue": 2982068.09,
+        "revenue": 3016943.95,
         "visits": 4131,
-        "rpv": 721.88,
+        "rpv": 730.32,
         "rebooked_rate": 0.4624,
         "completed_rate": 0.7039
       },
@@ -610,10 +610,10 @@
         "brand": "Holden Timeless Beauty",
         "region": "West Coast",
         "revenue": 1652854.49,
-        "visits": 2318,
-        "rpv": 713.05,
-        "rebooked_rate": 0.6377,
-        "completed_rate": 0.5041
+        "visits": 2363,
+        "rpv": 699.47,
+        "rebooked_rate": 0.6378,
+        "completed_rate": 0.5129
       },
       {
         "brand": "Refined Aesthetics",
@@ -672,9 +672,9 @@
       {
         "brand": "Refined at Blossom",
         "region": "East Coast",
-        "revenue": 667065.86,
+        "revenue": 670712.86,
         "visits": 1024,
-        "rpv": 651.43,
+        "rpv": 654.99,
         "rebooked_rate": 0.696,
         "completed_rate": 0.6624
       },
@@ -728,9 +728,9 @@
       {
         "brand": "Williams Center",
         "region": "East Coast",
-        "revenue": 9758030.72,
+        "revenue": 9792906.59,
         "visits": 13554,
-        "rpv": 719.94,
+        "rpv": 722.51,
         "rebooked_rate": 0.4422,
         "completed_rate": 0.6788
       },
@@ -765,10 +765,10 @@
         "brand": "Holden Timeless Beauty",
         "region": "West Coast",
         "revenue": 4926609.12,
-        "visits": 7672,
-        "rpv": 642.15,
-        "rebooked_rate": 0.6264,
-        "completed_rate": 0.5405
+        "visits": 7717,
+        "rpv": 638.41,
+        "rebooked_rate": 0.6265,
+        "completed_rate": 0.543
       },
       {
         "brand": "Refined Aesthetics",
@@ -827,9 +827,9 @@
       {
         "brand": "Refined at Blossom",
         "region": "East Coast",
-        "revenue": 1967458.48,
+        "revenue": 1971105.48,
         "visits": 3205,
-        "rpv": 613.87,
+        "rpv": 615.01,
         "rebooked_rate": 0.6483,
         "completed_rate": 0.6689
       },
@@ -883,9 +883,9 @@
       {
         "brand": "Williams Center",
         "region": "East Coast",
-        "revenue": 232332.38,
+        "revenue": 233802.38,
         "visits": 306,
-        "rpv": 759.26,
+        "rpv": 764.06,
         "rebooked_rate": 0.5507,
         "completed_rate": 0.6861
       },
@@ -923,7 +923,7 @@
         "visits": 179,
         "rpv": 696.39,
         "rebooked_rate": 0.5787,
-        "completed_rate": 0.5756
+        "completed_rate": 0.5737
       },
       {
         "brand": "Anne Therese Aesthetic Medicine",
@@ -1143,13 +1143,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": true,
-          "revenue": 139512,
+          "revenue": 142760,
           "visits": 165,
-          "rpv": 845.53,
+          "rpv": 865.21,
           "rebooked_rate": 0.5758,
           "completed_rate": 0.6496,
-          "days_worked": 16,
-          "rpd": 8719.5,
+          "days_worked": 17,
+          "rpd": 8397.65,
           "revenue_lm": 170835.6
         },
         {
@@ -1188,13 +1188,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 122688,
+          "revenue": 129478,
           "visits": 189,
-          "rpv": 649.14,
+          "rpv": 685.07,
           "rebooked_rate": 0.6865,
           "completed_rate": 0.7008,
-          "days_worked": 23,
-          "rpd": 5334.26,
+          "days_worked": 24,
+          "rpd": 5394.92,
           "revenue_lm": 127508.5
         },
         {
@@ -1204,10 +1204,10 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 120127.35,
-          "visits": 153,
-          "rpv": 785.15,
-          "rebooked_rate": 0.8431,
-          "completed_rate": 0.5294,
+          "visits": 158,
+          "rpv": 760.3,
+          "rebooked_rate": 0.8481,
+          "completed_rate": 0.543,
           "days_worked": 15,
           "rpd": 8008.49,
           "revenue_lm": 129807.94
@@ -1378,6 +1378,21 @@
           "revenue_lm": 89744.45
         },
         {
+          "employee": "Chelsea Ferrera",
+          "brand": "Holden Timeless Beauty",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 93122.01,
+          "visits": 174,
+          "rpv": 535.18,
+          "rebooked_rate": 0.6264,
+          "completed_rate": 0.5668,
+          "days_worked": 21,
+          "rpd": 4434.38,
+          "revenue_lm": 105867.54
+        },
+        {
           "employee": "Michelle Doran",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -1423,6 +1438,21 @@
           "revenue_lm": 79430.77
         },
         {
+          "employee": "Ingrid Hofersfort",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 86192.5,
+          "visits": 99,
+          "rpv": 870.63,
+          "rebooked_rate": 0.5455,
+          "completed_rate": 0.6781,
+          "days_worked": 15,
+          "rpd": 5746.17,
+          "revenue_lm": 53211.6
+        },
+        {
           "employee": "Madison Mikolajczyk",
           "brand": "CAMI Aesthetics",
           "region": "East Coast",
@@ -1439,15 +1469,15 @@
         },
         {
           "employee": "Lisa Leung",
-          "brand": "The Laser Center of Marin",
+          "brand": "Esthetics Center, The Laser Center of Marin",
           "region": "West Coast",
           "department": "Injectors",
           "partner": false,
           "revenue": 84528.01,
           "visits": 100,
           "rpv": 845.28,
-          "rebooked_rate": 0.86,
-          "completed_rate": 0.7937,
+          "rebooked_rate": 0.43,
+          "completed_rate": 0.3968,
           "days_worked": 13,
           "rpd": 6502.15,
           "revenue_lm": 78535.57
@@ -1504,10 +1534,10 @@
           "department": "Injectors",
           "partner": true,
           "revenue": 81123.57,
-          "visits": 108,
-          "rpv": 751.14,
-          "rebooked_rate": 0.6574,
-          "completed_rate": 0.5482,
+          "visits": 125,
+          "rpv": 648.99,
+          "rebooked_rate": 0.648,
+          "completed_rate": 0.6345,
           "days_worked": 13,
           "rpd": 6240.27,
           "revenue_lm": 53570.45
@@ -1526,21 +1556,6 @@
           "days_worked": 20,
           "rpd": 3975.65,
           "revenue_lm": 56356.84
-        },
-        {
-          "employee": "Ingrid Hofersfort",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 79310,
-          "visits": 99,
-          "rpv": 801.11,
-          "rebooked_rate": 0.5455,
-          "completed_rate": 0.6781,
-          "days_worked": 14,
-          "rpd": 5665,
-          "revenue_lm": 53211.6
         },
         {
           "employee": "Lauren Sanders",
@@ -1783,6 +1798,21 @@
           "revenue_lm": 72676.09
         },
         {
+          "employee": "Shannon Bollow",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 61428.35,
+          "visits": 140,
+          "rpv": 438.77,
+          "rebooked_rate": 0.6043,
+          "completed_rate": 0.6167,
+          "days_worked": 18,
+          "rpd": 3412.69,
+          "revenue_lm": 54534.41
+        },
+        {
           "employee": "Jason Rivera-Muscari",
           "brand": "Flawless",
           "region": "West Coast",
@@ -1819,28 +1849,28 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 58145.21,
-          "visits": 66,
-          "rpv": 880.99,
-          "rebooked_rate": 0.2879,
-          "completed_rate": 0.4925,
+          "visits": 71,
+          "rpv": 818.95,
+          "rebooked_rate": 0.2958,
+          "completed_rate": 0.5221,
           "days_worked": 14,
           "rpd": 4153.23,
           "revenue_lm": 38033.48
         },
         {
-          "employee": "Shannon Bollow",
+          "employee": "Seema Teymouri",
           "brand": "Williams Center",
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 56898.85,
-          "visits": 140,
-          "rpv": 406.42,
-          "rebooked_rate": 0.6043,
-          "completed_rate": 0.6167,
-          "days_worked": 17,
-          "rpd": 3346.99,
-          "revenue_lm": 54534.41
+          "revenue": 57163.1,
+          "visits": 108,
+          "rpv": 529.29,
+          "rebooked_rate": 0.5283,
+          "completed_rate": 0.6928,
+          "days_worked": 14,
+          "rpd": 4083.08,
+          "revenue_lm": 59965.25
         },
         {
           "employee": "Leigha Mcglone",
@@ -1886,21 +1916,6 @@
           "days_worked": 16,
           "rpd": 3327.36,
           "revenue_lm": 52352.44
-        },
-        {
-          "employee": "Seema Teymouri",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 52218.1,
-          "visits": 107,
-          "rpv": 488.02,
-          "rebooked_rate": 0.5283,
-          "completed_rate": 0.6928,
-          "days_worked": 12,
-          "rpd": 4351.51,
-          "revenue_lm": 59965.25
         },
         {
           "employee": "Alexa Costa",
@@ -2149,10 +2164,10 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 30908.41,
-          "visits": 41,
-          "rpv": 753.86,
-          "rebooked_rate": 0.4878,
-          "completed_rate": 0.519,
+          "visits": 49,
+          "rpv": 630.78,
+          "rebooked_rate": 0.5102,
+          "completed_rate": 0.6125,
           "days_worked": 5,
           "rpd": 6181.68,
           "revenue_lm": 28282.05
@@ -2488,6 +2503,21 @@
           "revenue_lm": 31013.85
         },
         {
+          "employee": "Sabrina Hand",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 7188.5,
+          "visits": 13,
+          "rpv": 552.96,
+          "rebooked_rate": 0,
+          "completed_rate": 0,
+          "days_worked": 8,
+          "rpd": 898.56,
+          "revenue_lm": 0
+        },
+        {
           "employee": "Susana Gonzales",
           "brand": "The Laser Center of Marin",
           "region": "West Coast",
@@ -2501,21 +2531,6 @@
           "days_worked": 3,
           "rpd": 2240.54,
           "revenue_lm": 13603.1
-        },
-        {
-          "employee": "Sabrina Hand",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 6200,
-          "visits": 11,
-          "rpv": 563.64,
-          "rebooked_rate": 0,
-          "completed_rate": 0,
-          "days_worked": 7,
-          "rpd": 885.71,
-          "revenue_lm": 0
         },
         {
           "employee": "Charlotte Mcwilliams",
@@ -2786,21 +2801,6 @@
           "days_worked": 0,
           "rpd": null,
           "revenue_lm": 99
-        },
-        {
-          "employee": "Chelsea Ferrera",
-          "brand": "Holden Timeless Beauty",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 66,
-          "rpv": 0,
-          "rebooked_rate": 0.803,
-          "completed_rate": 0.4204,
-          "days_worked": 0,
-          "rpd": null,
-          "revenue_lm": 0
         },
         {
           "employee": "Ashley Chase",
@@ -3148,6 +3148,20 @@
           "rpd": 7830.86
         },
         {
+          "employee": "Chelsea Ferrera",
+          "brand": "Holden Timeless Beauty",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 279595.85,
+          "visits": 613,
+          "rpv": 456.11,
+          "rebooked_rate": 0.5801,
+          "completed_rate": 0.5799,
+          "days_worked": 66,
+          "rpd": 4236.3
+        },
+        {
           "employee": "Michelle Doran",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -3484,20 +3498,6 @@
           "rpd": 4444.99
         },
         {
-          "employee": "Maquela Barron",
-          "brand": "RN Esthetics",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 160083.39,
-          "visits": 372,
-          "rpv": 430.33,
-          "rebooked_rate": 0.6355,
-          "completed_rate": 0.8416,
-          "days_worked": 70,
-          "rpd": 2286.91
-        },
-        {
           "employee": "Ingrid Hofersfort",
           "brand": "Williams Center",
           "region": "East Coast",
@@ -3510,6 +3510,20 @@
           "completed_rate": 0.6569,
           "days_worked": 55,
           "rpd": 2864.36
+        },
+        {
+          "employee": "Maquela Barron",
+          "brand": "RN Esthetics",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 160083.39,
+          "visits": 372,
+          "rpv": 430.33,
+          "rebooked_rate": 0.6355,
+          "completed_rate": 0.8416,
+          "days_worked": 70,
+          "rpd": 2286.91
         },
         {
           "employee": "Jason Rivera-Muscari",
@@ -4628,7 +4642,7 @@
           "rpv": null,
           "rebooked_rate": null,
           "completed_rate": null,
-          "days_worked": 1,
+          "days_worked": 2,
           "rpd": 0
         },
         {
@@ -4880,20 +4894,6 @@
           "rpv": null,
           "rebooked_rate": null,
           "completed_rate": null,
-          "days_worked": 0,
-          "rpd": null
-        },
-        {
-          "employee": "Chelsea Ferrera",
-          "brand": "Holden Timeless Beauty",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 613,
-          "rpv": 0,
-          "rebooked_rate": 0.5801,
-          "completed_rate": 0.5799,
           "days_worked": 0,
           "rpd": null
         },
@@ -5278,6 +5278,20 @@
           "rpd": 9379.51
         },
         {
+          "employee": "Chelsea Ferrera",
+          "brand": "Holden Timeless Beauty",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 306759.79,
+          "visits": 639,
+          "rpv": 480.06,
+          "rebooked_rate": 0.5196,
+          "completed_rate": 0.6006,
+          "days_worked": 58,
+          "rpd": 5288.96
+        },
+        {
           "employee": "Michelle Doran",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -5614,20 +5628,6 @@
           "rpd": 4642.74
         },
         {
-          "employee": "Maquela Barron",
-          "brand": "RN Esthetics",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 229466.28,
-          "visits": 579,
-          "rpv": 396.31,
-          "rebooked_rate": 0.6836,
-          "completed_rate": 0.8305,
-          "days_worked": 77,
-          "rpd": 2980.08
-        },
-        {
           "employee": "Ingrid Hofersfort",
           "brand": "Williams Center",
           "region": "East Coast",
@@ -5640,6 +5640,20 @@
           "completed_rate": 0.6815,
           "days_worked": 51,
           "rpd": 4422.79
+        },
+        {
+          "employee": "Maquela Barron",
+          "brand": "RN Esthetics",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 229466.28,
+          "visits": 579,
+          "rpv": 396.31,
+          "rebooked_rate": 0.6836,
+          "completed_rate": 0.8305,
+          "days_worked": 77,
+          "rpd": 2980.08
         },
         {
           "employee": "Jason Rivera-Muscari",
@@ -7014,20 +7028,6 @@
           "rpd": null
         },
         {
-          "employee": "Chelsea Ferrera",
-          "brand": "Holden Timeless Beauty",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 639,
-          "rpv": 0,
-          "rebooked_rate": 0.5196,
-          "completed_rate": 0.6006,
-          "days_worked": 0,
-          "rpd": null
-        },
-        {
           "employee": "Victoria Graaff",
           "brand": "Holden Timeless Beauty",
           "region": "West Coast",
@@ -7288,10 +7288,10 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 374447.55,
-          "visits": 505,
-          "rpv": 741.48,
-          "rebooked_rate": 0.8337,
-          "completed_rate": 0.5372,
+          "visits": 510,
+          "rpv": 734.21,
+          "rebooked_rate": 0.8353,
+          "completed_rate": 0.5414,
           "days_worked": 49,
           "rpd": 7641.79
         },
@@ -7301,13 +7301,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": true,
-          "revenue": 417545.69,
+          "revenue": 420793.69,
           "visits": 469,
-          "rpv": 890.29,
+          "rpv": 897.21,
           "rebooked_rate": 0.6461,
           "completed_rate": 0.6532,
-          "days_worked": 41,
-          "rpd": 10184.04
+          "days_worked": 42,
+          "rpd": 10018.9
         },
         {
           "employee": "Ali Oxton",
@@ -7343,13 +7343,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 376463.7,
+          "revenue": 383253.7,
           "visits": 550,
-          "rpv": 684.48,
+          "rpv": 696.82,
           "rebooked_rate": 0.5796,
           "completed_rate": 0.7143,
-          "days_worked": 71,
-          "rpd": 5302.31
+          "days_worked": 72,
+          "rpd": 5322.97
         },
         {
           "employee": "Jamie Hoffman",
@@ -7406,6 +7406,20 @@
           "completed_rate": 0.7491,
           "days_worked": 17,
           "rpd": 10729.82
+        },
+        {
+          "employee": "Chelsea Ferrera",
+          "brand": "Holden Timeless Beauty",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 311211.04,
+          "visits": 605,
+          "rpv": 514.4,
+          "rebooked_rate": 0.5686,
+          "completed_rate": 0.5829,
+          "days_worked": 65,
+          "rpd": 4787.86
         },
         {
           "employee": "Michelle Doran",
@@ -7693,13 +7707,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 160067.7,
+          "revenue": 164597.2,
           "visits": 386,
-          "rpv": 414.68,
+          "rpv": 426.42,
           "rebooked_rate": 0.5561,
           "completed_rate": 0.6379,
-          "days_worked": 55,
-          "rpd": 2910.32
+          "days_worked": 56,
+          "rpd": 2939.24
         },
         {
           "employee": "Seema Teymouri",
@@ -7707,13 +7721,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 182026.62,
-          "visits": 401,
-          "rpv": 453.93,
+          "revenue": 186971.62,
+          "visits": 402,
+          "rpv": 465.1,
           "rebooked_rate": 0.4824,
           "completed_rate": 0.7263,
-          "days_worked": 54,
-          "rpd": 3370.86
+          "days_worked": 56,
+          "rpd": 3338.78
         },
         {
           "employee": "Amanda Holden",
@@ -7722,10 +7736,10 @@
           "department": "Injectors",
           "partner": true,
           "revenue": 217390.12,
-          "visits": 304,
-          "rpv": 715.1,
-          "rebooked_rate": 0.6414,
-          "completed_rate": 0.5118,
+          "visits": 321,
+          "rpv": 677.23,
+          "rebooked_rate": 0.6417,
+          "completed_rate": 0.5404,
           "days_worked": 32,
           "rpd": 6793.44
         },
@@ -7744,6 +7758,20 @@
           "rpd": 3764.41
         },
         {
+          "employee": "Ingrid Hofersfort",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 213575.65,
+          "visits": 284,
+          "rpv": 752.03,
+          "rebooked_rate": 0.4856,
+          "completed_rate": 0.711,
+          "days_worked": 54,
+          "rpd": 3955.1
+        },
+        {
           "employee": "Maquela Barron",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -7756,20 +7784,6 @@
           "completed_rate": 0.8221,
           "days_worked": 63,
           "rpd": 3197.15
-        },
-        {
-          "employee": "Ingrid Hofersfort",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 206693.15,
-          "visits": 284,
-          "rpv": 727.79,
-          "rebooked_rate": 0.4856,
-          "completed_rate": 0.711,
-          "days_worked": 53,
-          "rpd": 3899.87
         },
         {
           "employee": "Jason Rivera-Muscari",
@@ -8072,10 +8086,10 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 133968.46,
-          "visits": 185,
-          "rpv": 724.15,
-          "rebooked_rate": 0.4703,
-          "completed_rate": 0.5226,
+          "visits": 190,
+          "rpv": 705.1,
+          "rebooked_rate": 0.4684,
+          "completed_rate": 0.5337,
           "days_worked": 36,
           "rpd": 3721.35
         },
@@ -8240,10 +8254,10 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 93614.71,
-          "visits": 122,
-          "rpv": 767.33,
-          "rebooked_rate": 0.5738,
-          "completed_rate": 0.5782,
+          "visits": 130,
+          "rpv": 720.11,
+          "rebooked_rate": 0.5769,
+          "completed_rate": 0.6132,
           "days_worked": 14,
           "rpd": 6686.77
         },
@@ -8883,13 +8897,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 6262,
-          "visits": 12,
-          "rpv": 521.83,
+          "revenue": 7250.5,
+          "visits": 14,
+          "rpv": 517.89,
           "rebooked_rate": 0,
           "completed_rate": 0,
-          "days_worked": 9,
-          "rpd": 695.78
+          "days_worked": 10,
+          "rpd": 725.05
         },
         {
           "employee": "Arianna Kostrivas",
@@ -9140,20 +9154,6 @@
           "rpv": null,
           "rebooked_rate": null,
           "completed_rate": null,
-          "days_worked": 0,
-          "rpd": null
-        },
-        {
-          "employee": "Chelsea Ferrera",
-          "brand": "Holden Timeless Beauty",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 497,
-          "rpv": 0,
-          "rebooked_rate": 0.5795,
-          "completed_rate": 0.5597,
           "days_worked": 0,
           "rpd": null
         },
@@ -9418,10 +9418,10 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 1230806.33,
-          "visits": 1753,
-          "rpv": 702.11,
-          "rebooked_rate": 0.83,
-          "completed_rate": 0.5591,
+          "visits": 1758,
+          "rpv": 700.12,
+          "rebooked_rate": 0.8305,
+          "completed_rate": 0.5602,
           "days_worked": 161,
           "rpd": 7644.76
         },
@@ -9431,13 +9431,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": true,
-          "revenue": 1184498.06,
+          "revenue": 1187746.06,
           "visits": 1425,
-          "rpv": 831.23,
+          "rpv": 833.51,
           "rebooked_rate": 0.6112,
           "completed_rate": 0.659,
-          "days_worked": 138,
-          "rpd": 8583.32
+          "days_worked": 139,
+          "rpd": 8544.94
         },
         {
           "employee": "Ali Oxton",
@@ -9473,13 +9473,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 1080628.5,
+          "revenue": 1087418.5,
           "visits": 1622,
-          "rpv": 666.23,
+          "rpv": 670.42,
           "rebooked_rate": 0.5152,
           "completed_rate": 0.693,
-          "days_worked": 194,
-          "rpd": 5570.25
+          "days_worked": 195,
+          "rpd": 5576.51
         },
         {
           "employee": "Jamie Hoffman",
@@ -9536,6 +9536,20 @@
           "completed_rate": 0.8017,
           "days_worked": 104,
           "rpd": 8974.82
+        },
+        {
+          "employee": "Chelsea Ferrera",
+          "brand": "Holden Timeless Beauty",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 897566.68,
+          "visits": 1857,
+          "rpv": 483.34,
+          "rebooked_rate": 0.5555,
+          "completed_rate": 0.588,
+          "days_worked": 189,
+          "rpd": 4749.03
         },
         {
           "employee": "Michelle Doran",
@@ -9823,13 +9837,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 611594.57,
+          "revenue": 616124.07,
           "visits": 1368,
-          "rpv": 447.07,
+          "rpv": 450.38,
           "rebooked_rate": 0.5503,
           "completed_rate": 0.667,
-          "days_worked": 181,
-          "rpd": 3378.98
+          "days_worked": 182,
+          "rpd": 3385.3
         },
         {
           "employee": "Seema Teymouri",
@@ -9837,13 +9851,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 610786.84,
-          "visits": 1359,
-          "rpv": 449.44,
+          "revenue": 615731.84,
+          "visits": 1360,
+          "rpv": 452.74,
           "rebooked_rate": 0.4441,
-          "completed_rate": 0.7089,
-          "days_worked": 176,
-          "rpd": 3470.38
+          "completed_rate": 0.709,
+          "days_worked": 178,
+          "rpd": 3459.17
         },
         {
           "employee": "Amanda Holden",
@@ -9852,10 +9866,10 @@
           "department": "Injectors",
           "partner": true,
           "revenue": 606503.06,
-          "visits": 921,
-          "rpv": 658.53,
-          "rebooked_rate": 0.6026,
-          "completed_rate": 0.5414,
+          "visits": 938,
+          "rpv": 646.59,
+          "rebooked_rate": 0.6034,
+          "completed_rate": 0.5507,
           "days_worked": 96,
           "rpd": 6317.74
         },
@@ -9874,6 +9888,20 @@
           "rpd": 4262.44
         },
         {
+          "employee": "Ingrid Hofersfort",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 596677.95,
+          "visits": 850,
+          "rpv": 701.97,
+          "rebooked_rate": 0.4553,
+          "completed_rate": 0.6834,
+          "days_worked": 160,
+          "rpd": 3729.24
+        },
+        {
           "employee": "Maquela Barron",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -9886,20 +9914,6 @@
           "completed_rate": 0.8305,
           "days_worked": 210,
           "rpd": 2814.14
-        },
-        {
-          "employee": "Ingrid Hofersfort",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 589795.45,
-          "visits": 850,
-          "rpv": 693.88,
-          "rebooked_rate": 0.4553,
-          "completed_rate": 0.6834,
-          "days_worked": 159,
-          "rpd": 3709.41
         },
         {
           "employee": "Jason Rivera-Muscari",
@@ -10202,10 +10216,10 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 392644.06,
-          "visits": 636,
-          "rpv": 617.36,
-          "rebooked_rate": 0.4984,
-          "completed_rate": 0.5348,
+          "visits": 641,
+          "rpv": 612.55,
+          "rebooked_rate": 0.4977,
+          "completed_rate": 0.538,
           "days_worked": 107,
           "rpd": 3669.57
         },
@@ -10370,10 +10384,10 @@
           "department": "Injectors",
           "partner": false,
           "revenue": 269638.77,
-          "visits": 370,
-          "rpv": 728.75,
-          "rebooked_rate": 0.5757,
-          "completed_rate": 0.6045,
+          "visits": 378,
+          "rpv": 713.33,
+          "rebooked_rate": 0.5767,
+          "completed_rate": 0.616,
           "days_worked": 36,
           "rpd": 7489.97
         },
@@ -11013,13 +11027,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 6333,
-          "visits": 13,
-          "rpv": 487.15,
+          "revenue": 7321.5,
+          "visits": 15,
+          "rpv": 488.1,
           "rebooked_rate": 0,
           "completed_rate": 0,
-          "days_worked": 11,
-          "rpd": 575.73
+          "days_worked": 13,
+          "rpd": 563.19
         },
         {
           "employee": "Arianna Kostrivas",
@@ -11270,20 +11284,6 @@
           "rpv": null,
           "rebooked_rate": null,
           "completed_rate": null,
-          "days_worked": 0,
-          "rpd": null
-        },
-        {
-          "employee": "Chelsea Ferrera",
-          "brand": "Holden Timeless Beauty",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 1749,
-          "rpv": 0,
-          "rebooked_rate": 0.5578,
-          "completed_rate": 0.5817,
           "days_worked": 0,
           "rpd": null
         },
@@ -11570,6 +11570,20 @@
           "rpd": 9015.25
         },
         {
+          "employee": "Chelsea Ferrera",
+          "brand": "Holden Timeless Beauty",
+          "region": "West Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 34302.32,
+          "visits": 54,
+          "rpv": 635.23,
+          "rebooked_rate": 0.6111,
+          "completed_rate": 0.6279,
+          "days_worked": 6,
+          "rpd": 5717.05
+        },
+        {
           "employee": "Jamie Hoffman",
           "brand": "Esthetics Center",
           "region": "West Coast",
@@ -11654,6 +11668,20 @@
           "rpd": 8242.39
         },
         {
+          "employee": "Ingrid Hofersfort",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Injectors",
+          "partner": false,
+          "revenue": 24202.5,
+          "visits": 26,
+          "rpv": 930.87,
+          "rebooked_rate": 0.5,
+          "completed_rate": 0.7879,
+          "days_worked": 5,
+          "rpd": 4840.5
+        },
+        {
           "employee": "Erin Froio",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -11680,20 +11708,6 @@
           "completed_rate": 0.8431,
           "days_worked": 3,
           "rpd": 7579.67
-        },
-        {
-          "employee": "Ingrid Hofersfort",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 22432.5,
-          "visits": 26,
-          "rpv": 862.79,
-          "rebooked_rate": 0.5,
-          "completed_rate": 0.7879,
-          "days_worked": 5,
-          "rpd": 4486.5
         },
         {
           "employee": "Mckenzie Barnes",
@@ -11785,13 +11799,13 @@
           "region": "East Coast",
           "department": "Injectors",
           "partner": false,
-          "revenue": 19051.04,
+          "revenue": 18751.04,
           "visits": 35,
-          "rpv": 544.32,
+          "rpv": 535.74,
           "rebooked_rate": 0.5714,
           "completed_rate": 0.5645,
           "days_worked": 5,
-          "rpd": 3810.21
+          "rpd": 3750.21
         },
         {
           "employee": "Maria Campagnone",
@@ -12788,20 +12802,6 @@
           "rpd": null
         },
         {
-          "employee": "Chelsea Ferrera",
-          "brand": "Holden Timeless Beauty",
-          "region": "West Coast",
-          "department": "Injectors",
-          "partner": false,
-          "revenue": 0,
-          "visits": 16,
-          "rpv": 0,
-          "rebooked_rate": 0.8125,
-          "completed_rate": 0.4706,
-          "days_worked": 0,
-          "rpd": null
-        },
-        {
           "employee": "Ashley Chase",
           "brand": "LexRX",
           "region": "",
@@ -12966,13 +12966,13 @@
           "region": "East Coast",
           "department": "Device Operators",
           "partner": false,
-          "revenue": 38122.25,
+          "revenue": 38221.25,
           "visits": 104,
-          "rpv": 366.56,
+          "rpv": 367.51,
           "rebooked_rate": 0.8846,
           "completed_rate": 0.698,
           "days_worked": 22,
-          "rpd": 1732.83,
+          "rpd": 1737.33,
           "revenue_lm": 39375.16
         },
         {
@@ -13615,13 +13615,13 @@
           "region": "East Coast",
           "department": "Device Operators",
           "partner": false,
-          "revenue": 115692.28,
+          "revenue": 115791.28,
           "visits": 333,
-          "rpv": 347.42,
+          "rpv": 347.72,
           "rebooked_rate": 0.8048,
           "completed_rate": 0.6782,
           "days_worked": 63,
-          "rpd": 1836.39
+          "rpd": 1837.96
         },
         {
           "employee": "Katie Reed",
@@ -13827,13 +13827,13 @@
           "region": "East Coast",
           "department": "Device Operators",
           "partner": false,
-          "revenue": 316281.17,
+          "revenue": 316380.17,
           "visits": 968,
-          "rpv": 326.74,
+          "rpv": 326.84,
           "rebooked_rate": 0.781,
           "completed_rate": 0.6737,
           "days_worked": 183,
-          "rpd": 1728.31
+          "rpd": 1728.85
         },
         {
           "employee": "Katie Reed",
@@ -14282,6 +14282,21 @@
           "revenue_lm": 16202.77
         },
         {
+          "employee": "Nicole Teta",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Estheticians - Facialists",
+          "partner": false,
+          "revenue": 27401,
+          "visits": 63,
+          "rpv": 434.94,
+          "rebooked_rate": 0.6825,
+          "completed_rate": 0.7412,
+          "days_worked": 16,
+          "rpd": 1712.56,
+          "revenue_lm": 21467.62
+        },
+        {
           "employee": "Joy Vega",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -14310,21 +14325,6 @@
           "days_worked": 14,
           "rpd": 1897.8,
           "revenue_lm": 9945.67
-        },
-        {
-          "employee": "Nicole Teta",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Estheticians - Facialists",
-          "partner": false,
-          "revenue": 26172.5,
-          "visits": 63,
-          "rpv": 415.44,
-          "rebooked_rate": 0.6825,
-          "completed_rate": 0.7412,
-          "days_worked": 15,
-          "rpd": 1744.83,
-          "revenue_lm": 21467.62
         },
         {
           "employee": "Kimberly Minor",
@@ -14587,13 +14587,13 @@
           "region": "East Coast",
           "department": "Estheticians - Facialists",
           "partner": false,
-          "revenue": 8757.12,
+          "revenue": 9342.82,
           "visits": 29,
-          "rpv": 301.97,
+          "rpv": 322.17,
           "rebooked_rate": 0.6897,
           "completed_rate": 0.7436,
-          "days_worked": 15,
-          "rpd": 583.81,
+          "days_worked": 17,
+          "rpd": 549.58,
           "revenue_lm": 9778.8
         },
         {
@@ -14648,10 +14648,10 @@
           "department": "Estheticians - Facialists",
           "partner": false,
           "revenue": 4056.2,
-          "visits": 14,
-          "rpv": 289.73,
-          "rebooked_rate": 0.6429,
-          "completed_rate": 0.5,
+          "visits": 17,
+          "rpv": 238.6,
+          "rebooked_rate": 0.6471,
+          "completed_rate": 0.6071,
           "days_worked": 5,
           "rpd": 811.24,
           "revenue_lm": 2535.2
@@ -14909,6 +14909,20 @@
           "rpd": 1278.5
         },
         {
+          "employee": "Nicole Teta",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Estheticians - Facialists",
+          "partner": false,
+          "revenue": 67141.27,
+          "visits": 155,
+          "rpv": 433.17,
+          "rebooked_rate": 0.5871,
+          "completed_rate": 0.6151,
+          "days_worked": 54,
+          "rpd": 1243.36
+        },
+        {
           "employee": "Courtney Boulay",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -14935,20 +14949,6 @@
           "completed_rate": 0.7888,
           "days_worked": 34,
           "rpd": 1657.13
-        },
-        {
-          "employee": "Nicole Teta",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Estheticians - Facialists",
-          "partner": false,
-          "revenue": 67141.27,
-          "visits": 155,
-          "rpv": 433.17,
-          "rebooked_rate": 0.5871,
-          "completed_rate": 0.6151,
-          "days_worked": 54,
-          "rpd": 1243.36
         },
         {
           "employee": "Kimberly Minor",
@@ -15611,6 +15611,20 @@
           "rpd": 1341.92
         },
         {
+          "employee": "Nicole Teta",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Estheticians - Facialists",
+          "partner": false,
+          "revenue": 74281.73,
+          "visits": 185,
+          "rpv": 401.52,
+          "rebooked_rate": 0.6162,
+          "completed_rate": 0.6679,
+          "days_worked": 59,
+          "rpd": 1259.01
+        },
+        {
           "employee": "Courtney Boulay",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -15637,20 +15651,6 @@
           "completed_rate": 0.8269,
           "days_worked": 50,
           "rpd": 1612.86
-        },
-        {
-          "employee": "Nicole Teta",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Estheticians - Facialists",
-          "partner": false,
-          "revenue": 74281.73,
-          "visits": 185,
-          "rpv": 401.52,
-          "rebooked_rate": 0.6162,
-          "completed_rate": 0.6679,
-          "days_worked": 59,
-          "rpd": 1259.01
         },
         {
           "employee": "Kimberly Minor",
@@ -16313,6 +16313,20 @@
           "rpd": 1414.16
         },
         {
+          "employee": "Nicole Teta",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Estheticians - Facialists",
+          "partner": false,
+          "revenue": 71097.44,
+          "visits": 172,
+          "rpv": 413.36,
+          "rebooked_rate": 0.5988,
+          "completed_rate": 0.654,
+          "days_worked": 53,
+          "rpd": 1341.46
+        },
+        {
           "employee": "Courtney Boulay",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -16339,20 +16353,6 @@
           "completed_rate": 0.7655,
           "days_worked": 45,
           "rpd": 1659.36
-        },
-        {
-          "employee": "Nicole Teta",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Estheticians - Facialists",
-          "partner": false,
-          "revenue": 69868.94,
-          "visits": 172,
-          "rpv": 406.21,
-          "rebooked_rate": 0.5988,
-          "completed_rate": 0.654,
-          "days_worked": 52,
-          "rpd": 1343.63
         },
         {
           "employee": "Kimberly Minor",
@@ -16542,13 +16542,13 @@
           "region": "East Coast",
           "department": "Estheticians - Facialists",
           "partner": false,
-          "revenue": 26851.12,
+          "revenue": 27436.82,
           "visits": 77,
-          "rpv": 348.72,
+          "rpv": 356.32,
           "rebooked_rate": 0.7013,
           "completed_rate": 0.6754,
-          "days_worked": 48,
-          "rpd": 559.4
+          "days_worked": 50,
+          "rpd": 548.74
         },
         {
           "employee": "Gabrielle Smith",
@@ -16655,10 +16655,10 @@
           "department": "Estheticians - Facialists",
           "partner": false,
           "revenue": 9290.89,
-          "visits": 37,
-          "rpv": 251.11,
-          "rebooked_rate": 0.6486,
-          "completed_rate": 0.5968,
+          "visits": 40,
+          "rpv": 232.27,
+          "rebooked_rate": 0.65,
+          "completed_rate": 0.6452,
           "days_worked": 12,
           "rpd": 774.24
         },
@@ -17015,6 +17015,20 @@
           "rpd": 1345.16
         },
         {
+          "employee": "Nicole Teta",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Estheticians - Facialists",
+          "partner": false,
+          "revenue": 212520.44,
+          "visits": 512,
+          "rpv": 415.08,
+          "rebooked_rate": 0.6016,
+          "completed_rate": 0.6472,
+          "days_worked": 166,
+          "rpd": 1280.24
+        },
+        {
           "employee": "Courtney Boulay",
           "brand": "RN Esthetics",
           "region": "East Coast",
@@ -17041,20 +17055,6 @@
           "completed_rate": 0.7944,
           "days_worked": 129,
           "rpd": 1640.75
-        },
-        {
-          "employee": "Nicole Teta",
-          "brand": "Williams Center",
-          "region": "East Coast",
-          "department": "Estheticians - Facialists",
-          "partner": false,
-          "revenue": 211291.94,
-          "visits": 512,
-          "rpv": 412.68,
-          "rebooked_rate": 0.6016,
-          "completed_rate": 0.6472,
-          "days_worked": 165,
-          "rpd": 1280.56
         },
         {
           "employee": "Kimberly Minor",
@@ -17244,13 +17244,13 @@
           "region": "East Coast",
           "department": "Estheticians - Facialists",
           "partner": false,
-          "revenue": 70070.23,
+          "revenue": 70655.93,
           "visits": 239,
-          "rpv": 293.18,
+          "rpv": 295.63,
           "rebooked_rate": 0.6623,
           "completed_rate": 0.6449,
-          "days_worked": 134,
-          "rpd": 522.91
+          "days_worked": 136,
+          "rpd": 519.53
         },
         {
           "employee": "Gabrielle Smith",
@@ -17357,10 +17357,10 @@
           "department": "Estheticians - Facialists",
           "partner": false,
           "revenue": 30067.72,
-          "visits": 138,
-          "rpv": 217.88,
-          "rebooked_rate": 0.617,
-          "completed_rate": 0.5905,
+          "visits": 141,
+          "rpv": 213.25,
+          "rebooked_rate": 0.618,
+          "completed_rate": 0.6043,
           "days_worked": 37,
           "rpd": 812.64
         },
@@ -18160,13 +18160,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": true,
-          "revenue": 252755.56,
-          "visits": 199,
-          "rpv": 1270.13,
+          "revenue": 253417.46,
+          "visits": 203,
+          "rpv": 1248.36,
           "rebooked_rate": 0.3529,
           "completed_rate": 0.6202,
-          "days_worked": 37,
-          "rpd": 6831.23,
+          "days_worked": 39,
+          "rpd": 6497.88,
           "revenue_lm": 234447.7
         },
         {
@@ -18190,13 +18190,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 129956.46,
+          "revenue": 137961.94,
           "visits": 123,
-          "rpv": 1056.56,
+          "rpv": 1121.64,
           "rebooked_rate": 0.2029,
           "completed_rate": 0.7321,
-          "days_worked": 29,
-          "rpd": 4481.26,
+          "days_worked": 30,
+          "rpd": 4598.73,
           "revenue_lm": 152649.3
         },
         {
@@ -18205,14 +18205,14 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 120602.49,
+          "revenue": 120716.49,
           "visits": 169,
-          "rpv": 713.62,
+          "rpv": 714.3,
           "rebooked_rate": 0.313,
           "completed_rate": 0.7717,
           "days_worked": 26,
-          "rpd": 4638.56,
-          "revenue_lm": 96199.69
+          "rpd": 4642.94,
+          "revenue_lm": 96274.49
         },
         {
           "employee": "Daniel Lee",
@@ -18220,13 +18220,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 82710.14,
+          "revenue": 82780.13,
           "visits": 187,
-          "rpv": 442.3,
+          "rpv": 442.67,
           "rebooked_rate": 0.3272,
           "completed_rate": 0.7727,
           "days_worked": 24,
-          "rpd": 3446.26,
+          "rpd": 3449.17,
           "revenue_lm": 83244.79
         },
         {
@@ -18321,6 +18321,21 @@
         },
         {
           "employee": "Adaceliz Carrion",
+          "brand": "Williams Center",
+          "region": "East Coast",
+          "department": "Surgery",
+          "partner": false,
+          "revenue": 0,
+          "visits": 0,
+          "rpv": null,
+          "rebooked_rate": 0,
+          "completed_rate": 0,
+          "days_worked": 0,
+          "rpd": null,
+          "revenue_lm": 0
+        },
+        {
+          "employee": "Carolyn Opar-Goslow",
           "brand": "Williams Center",
           "region": "East Coast",
           "department": "Surgery",
@@ -18826,13 +18841,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": true,
-          "revenue": 756471.51,
-          "visits": 539,
-          "rpv": 1403.47,
+          "revenue": 757133.41,
+          "visits": 543,
+          "rpv": 1394.35,
           "rebooked_rate": 0.3186,
           "completed_rate": 0.663,
-          "days_worked": 114,
-          "rpd": 6635.72
+          "days_worked": 116,
+          "rpd": 6527.01
         },
         {
           "employee": "Reginald Rice",
@@ -18854,13 +18869,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 448722.73,
+          "revenue": 456728.21,
           "visits": 444,
-          "rpv": 1010.64,
+          "rpv": 1028.67,
           "rebooked_rate": 0.2153,
           "completed_rate": 0.7025,
-          "days_worked": 94,
-          "rpd": 4773.65
+          "days_worked": 95,
+          "rpd": 4807.67
         },
         {
           "employee": "Alfredo Lloreda",
@@ -18868,13 +18883,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 361090.1,
+          "revenue": 361278.91,
           "visits": 494,
-          "rpv": 730.95,
+          "rpv": 731.33,
           "rebooked_rate": 0.2898,
           "completed_rate": 0.7265,
           "days_worked": 75,
-          "rpd": 4814.53
+          "rpd": 4817.05
         },
         {
           "employee": "Daniel Lee",
@@ -18882,13 +18897,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 246421.57,
+          "revenue": 246491.55,
           "visits": 526,
-          "rpv": 468.48,
+          "rpv": 468.62,
           "rebooked_rate": 0.2969,
           "completed_rate": 0.7679,
           "days_worked": 70,
-          "rpd": 3520.31
+          "rpd": 3521.31
         },
         {
           "employee": "Megan Vincze",
@@ -19038,13 +19053,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": true,
-          "revenue": 2789360.31,
-          "visits": 1769,
-          "rpv": 1576.8,
+          "revenue": 2790022.21,
+          "visits": 1773,
+          "rpv": 1573.62,
           "rebooked_rate": 0.3326,
           "completed_rate": 0.6383,
-          "days_worked": 361,
-          "rpd": 7726.76
+          "days_worked": 363,
+          "rpd": 7686.01
         },
         {
           "employee": "Reginald Rice",
@@ -19066,13 +19081,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 1256347.08,
+          "revenue": 1264352.56,
           "visits": 1483,
-          "rpv": 847.17,
+          "rpv": 852.56,
           "rebooked_rate": 0.2146,
           "completed_rate": 0.6322,
-          "days_worked": 266,
-          "rpd": 4723.11
+          "days_worked": 267,
+          "rpd": 4735.4
         },
         {
           "employee": "Alfredo Lloreda",
@@ -19080,13 +19095,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 1200696.58,
+          "revenue": 1200885.38,
           "visits": 1581,
-          "rpv": 759.45,
+          "rpv": 759.57,
           "rebooked_rate": 0.3174,
           "completed_rate": 0.6902,
           "days_worked": 216,
-          "rpd": 5558.78
+          "rpd": 5559.65
         },
         {
           "employee": "Daniel Lee",
@@ -19094,13 +19109,13 @@
           "region": "East Coast",
           "department": "Surgery",
           "partner": false,
-          "revenue": 725116.97,
+          "revenue": 725186.96,
           "visits": 1616,
-          "rpv": 448.71,
+          "rpv": 448.75,
           "rebooked_rate": 0.3127,
           "completed_rate": 0.7177,
           "days_worked": 176,
-          "rpd": 4119.98
+          "rpd": 4120.38
         },
         {
           "employee": "Megan Vincze",
