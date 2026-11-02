@@ -10,7 +10,7 @@ const state = {
 
 function isRevenueOnly(brand) {
   const n = String(brand || "").toLowerCase();
-  return n.indexOf("lexrx") !== -1 || n.indexOf("lex rx") !== -1 || n.indexOf("bair") !== -1;
+  return n.indexOf("bair") !== -1;
 }
 const DASH_KEYS = ["visits", "rpv", "rpd", "days_worked", "rebooked_rate", "completed_rate"];
 
